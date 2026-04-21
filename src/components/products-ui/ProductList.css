@@ -1,0 +1,15 @@
+.product_list_section {
+  position: relative;
+}
+.product-filter {
+  position: absolute;
+  right: 192px;
+  top: 0px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  gap: 1rem;
+  padding: 0px 24px 16px 24px;
+}

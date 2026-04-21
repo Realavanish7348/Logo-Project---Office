@@ -1,0 +1,218 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Top section */
+.footer__top {
+  padding-bottom: 24px;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
+.footer__newsletter_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  h4 {
+    font-family: "Simplon Norm Bold";
+    font-size: 20px;
+    line-height: 100%;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+  p {
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-family: Simplon Norm Regular;
+    font-size: 14px;
+  }
+}
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 46%;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  .newsletter-form__input {
+    background-color: white;
+    /* min-width: 384px; */
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    font-family: "Simplon Norm Regular";
+    font-size: 18px;
+    color: #bfc8cd;
+    vertical-align: middle;
+  }
+}
+.newsletter-form__button {
+  padding: 14px 18px;
+  border: 1.14px solid #ffffff;
+  background-color: #000000;
+  opacity: 30%;
+  border-radius: 5px;
+  font-family: "Simplon Norm Regular";
+  font-size: 18px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-contact__currency {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer__title {
+  font-family: "Simplon Norm Bold";
+  font-size: 16px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.footer__text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  letter-spacing: 0;
+  font-family: Simplon Norm Regular;
+  font-size: 14px;
+  gap: 1rem;
+}
+.footer__currency {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.currency__code {
+  font-family: "Simplon Norm Bold";
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+.footer__note {
+  display: none;
+  font-family: "Simplon Norm Regular";
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+/* Bottom section */
+.footer__bottom {
+  /* padding-top: 24px; */
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
+.footer__heading {
+  font-family: "Simplon Norm Bold";
+  font-size: 16px;
+  line-height: 100%;
+  vertical-align: middle;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  a {
+    text-decoration: none;
+    font-family: "Simplon Norm Regular";
+    font-size: 18px;
+    line-height: 100%;
+
+    vertical-align: middle;
+    color: #ffffff;
+  }
+}
+.muse-hidden {
+  li {
+    display: none;
+  }
+}
+.links-hidden {
+  li {
+    display: none;
+  }
+}
+.footer__social {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__payments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.payments {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 24px;
+}
+.social_payment-hidden {
+  display: none;
+}
+
+.brand-links,
+.quick-links,
+.social-payments {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding: 24px 0px;
+}
+/* Copyright section */
+.footer__copyright {
+  font-family: "Simplon Norm Regular";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  /* Footer  */
+  .footer__top {
+    flex-direction: column;
+  }
+  .footer__newsletter {
+    /* border-bottom: 1px solid #e5e5e5; */
+  }
+  .footer__text {
+    /* display: none; */
+  }
+}

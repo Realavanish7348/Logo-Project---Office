@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Interactive Elements */
+  --color-accent: #000000; /* Buttons, active states */
+  --color-accent-hover: #333333; /* Hover states */
+  --color-link: #1a1a1a;
+  --color-link-hover: #000000;
+
+  /* Borders & Dividers */
+  --color-border-light: #e6e6e6; /* Card borders, dividers */
+  --color-border-muted: #d1d1d1; /* Filters, inputs */
+
+  /* Primary Brand Neutrals */
+  --color-primary-text: #1a1a1a; /* Headings, product titles */
+  --color-secondary-text: #6f6f6f; /* Descriptions, meta text */
+  --color-muted-text: #9a9a9a; /* Placeholder, helper text */
+
+  /* Inputs */
+  --color-input-bg: #ffffff;
+  --color-input-border: #cfcfcf;
+  --color-input-text: #1a1a1a;
+  --color-input-placeholder: #9e9e9e;
+  /* Icons */
+  --color-icon-default: #1a1a1a;
+  --color-icon-muted: #8a8a8a;
+  --color-icon-active: #000000;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: "Simplon Norm Bold";
+  src: url("@/fonts/SimplonNorm-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Simplon Norm Regular";
+  src: url("@/fonts/SimplonNorm-Regular-WebS.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Adobe Caslon Pro";
+  src: url("@/fonts/ACaslonPro-Regular.otf") format("otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("@/fonts/InterExtra-Bold-800.otf") format("otf");
+  font-weight: 800;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  width: 100%;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    "Simplon Norm Bold", "Adobe Caslon Pro", "Simplon Norm Regular", "Inter";
+  font-weight: 400;
+  line-height: 1.6;
 }
