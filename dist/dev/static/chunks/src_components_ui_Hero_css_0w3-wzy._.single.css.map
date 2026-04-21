@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/ui/Hero.css"],"sourcesContent":[".hero-page {\r\n  justify-content: center;\r\n  align-items: center;\r\n  /* padding-bottom: 24px; */\r\n  display: flex;\r\n  height: 168px;\r\n  margin: 48px auto;\r\n}\r\n.hero-box {\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  gap: 1rem;\r\n  min-width: 350px;\r\n  max-width: 721px;\r\n  display: flex;\r\n}\r\n.title {\r\n  text-align: center;\r\n  font-family: \"Simplon Norm Regular\";\r\n  font-size: 24px;\r\n  line-height: 100%;\r\n  letter-spacing: 1px;\r\n  text-transform: uppercase;\r\n  color: #252020;\r\n}\r\n.details {\r\n  letter-spacing: 0;\r\n  text-align: center;\r\n  font-family: \"Simplon Norm Regular\";\r\n  font-size: 16px;\r\n  line-height: 22px;\r\n}\r\n@media (min-width: 1024px) {\r\n  .details {\r\n    font-size: 22px;\r\n    line-height: 40px;\r\n  }\r\n  .title {\r\n    font-size: 60px;\r\n  }\r\n}\r\n\r\n@media (min-width: 350px) and (max-width: 768px) {\r\n  .hero-page {\r\n    margin: 0px auto;\r\n    height: 127px;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;;AASA;;;;;;;;;;AASA;;;;;;;;AAOA;EACE;;;;;EAIA;;;;;AAKF;EACE"}}]
+}

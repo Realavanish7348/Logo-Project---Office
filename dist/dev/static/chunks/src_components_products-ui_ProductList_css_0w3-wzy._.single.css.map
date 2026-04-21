@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/products-ui/ProductList.css"],"sourcesContent":[".product_list_section {\r\n  position: relative;\r\n}\r\n.product-filter {\r\n  position: absolute;\r\n  right: 204px;\r\n  top: 0px;\r\n}\r\n.product-list {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-top: 24px;\r\n  gap: 1rem;\r\n  padding: 0px 24px 16px 24px;\r\n}\r\n@media (min-width: 1024px) {\r\n  .product_list_section {\r\n    display: grid;\r\n    grid-template-columns: 300px auto;\r\n    padding: 0px 96px;\r\n  }\r\n  .product-filter {\r\n    position: static;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;AAKA;;;;;;;;AAOA;EACE;;;;;;EAKA"}}]
+}

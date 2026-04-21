@@ -1,18 +1,19 @@
 .hero-page {
-  display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
+  display: flex;
+  height: 168px;
+  margin: 48px auto;
 }
 .hero-box {
-  display: flex;
   flex-direction: column;
-  min-width: 350px;
-  max-width: 721px;
-  gap: 1rem;
   justify-content: center;
   align-items: center;
-  padding: 0px 16px;
+  gap: 1rem;
+  min-width: 350px;
+  max-width: 721px;
+  display: flex;
 }
 .title {
   text-align: center;
@@ -29,4 +30,20 @@
   font-family: "Simplon Norm Regular";
   font-size: 16px;
   line-height: 22px;
+}
+@media (min-width: 1024px) {
+  .details {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
+  .hero-page {
+    margin: 0px auto;
+    height: 127px;
+  }
 }

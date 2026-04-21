@@ -1,0 +1,32 @@
+/* [project]/src/components/products-ui/ProductList.css [app-client] (css) */
+.product_list_section {
+  position: relative;
+}
+
+.product-filter {
+  position: absolute;
+  top: 0;
+  right: 204px;
+}
+
+.product-list {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 24px;
+  padding: 0 24px 16px;
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .product_list_section {
+    grid-template-columns: 300px auto;
+    padding: 0 96px;
+    display: grid;
+  }
+
+  .product-filter {
+    position: static;
+  }
+}
+
+/*# sourceMappingURL=src_components_products-ui_ProductList_css_0w3-wzy._.single.css.map*/

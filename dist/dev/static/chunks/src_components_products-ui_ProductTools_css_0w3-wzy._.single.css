@@ -1,0 +1,171 @@
+/* [project]/src/components/products-ui/ProductTools.css [app-client] (css) */
+.product-toolbar {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  grid-template-columns: 1fr auto;
+  padding: 26px 0;
+  display: grid;
+  position: relative;
+}
+
+.product-toolbar__left {
+  align-items: center;
+  gap: 80px;
+  display: flex;
+}
+
+.product-count {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: clamp(14px, 1.5vw, 18px);
+  line-height: 40px;
+}
+
+.filter-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  gap: 5px;
+  display: flex;
+}
+
+.filter-toggle__icon {
+  color: #888792;
+  align-content: center;
+  font-size: 1.6em;
+}
+
+.filter-toggle__text {
+  offset: 0%;
+  color: #888792;
+  font-family: Adobe Caslon Pro;
+  font-size: clamp(14px, 1.4vw, 16px);
+  line-height: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: calc(1em / 3.40282e38);
+}
+
+.product-toolbar__left__filter {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.product-toolbar__left__line {
+  color: #e5e5e5;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.product-toolbar__line {
+  display: none;
+}
+
+.product-toolbar__right {
+  align-items: center;
+  display: flex;
+}
+
+.sort-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  gap: 5px;
+  display: flex;
+}
+
+.sort-button__label {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.sort-button__icon {
+  align-content: center;
+}
+
+.sort__dropdown {
+  z-index: 1;
+  background-color: #fff;
+  flex-direction: column;
+  gap: 36px;
+  width: 235px;
+  height: 324px;
+  padding: 24px 36px;
+  display: flex;
+  position: absolute;
+  top: 90px;
+  right: 1px;
+  box-shadow: 0 0 7px 1px #a3aaaf33;
+}
+
+.sort__dropdown span {
+  padding-right: 12px;
+}
+
+.sort__option {
+  text-align: right;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  font-family: Simplon Norm Regular;
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+
+.is-active {
+  font-family: Simplon Norm Bold;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 350px) and (max-width: 1024px) {
+  .product-toolbar__left {
+    display: none;
+  }
+
+  .product-toolbar {
+    justify-content: space-around;
+    align-items: center;
+    height: 42px;
+    display: flex;
+  }
+
+  .product-toolbar__line {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-toolbar__left__filter {
+    display: none;
+  }
+
+  .product-toolbar {
+    margin: 0 96px;
+  }
+
+  .sort-button__label {
+    font-family: Simplon Norm;
+    font-weight: 700;
+    font-style: Bold;
+    leading-trim: NONE;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+/*# sourceMappingURL=src_components_products-ui_ProductTools_css_0w3-wzy._.single.css.map*/

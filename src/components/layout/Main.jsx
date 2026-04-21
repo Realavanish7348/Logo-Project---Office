@@ -6,7 +6,7 @@ import ProductTools from "../products/ProductTools";
 import ProductList from "../products/ProductList";
 
 function Main() {
-  const [isFilter, setIsFilter] = useState(true);
+  const [isFilter, setIsFilter] = useState(false);
   return (
     <>
       <Hero />

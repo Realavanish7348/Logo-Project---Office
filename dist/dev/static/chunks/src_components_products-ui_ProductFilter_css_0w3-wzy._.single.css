@@ -1,0 +1,102 @@
+/* [project]/src/components/products-ui/ProductFilter.css [app-client] (css) */
+.filters {
+  background-color: #fff;
+  min-width: 180px;
+  max-width: 300px;
+  margin-top: 24px;
+}
+
+.hide-filters {
+  display: none;
+}
+
+.filters__form {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.filter__checkbox {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.filter__checkbox input {
+  opacity: 1;
+  cursor: pointer;
+  border: .92px solid #4d4d4d;
+  width: 22px;
+  height: 22px;
+}
+
+.filter__checkbox span {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Simplon Norm Bold;
+  font-size: 18px;
+}
+
+.filter__header {
+  justify-content: space-between;
+  padding-right: 8px;
+  display: flex;
+}
+
+.filter__header h3 {
+  text-transform: uppercase;
+  color: #252020;
+  font-family: Simplon Norm Bold;
+  font-size: 18px;
+}
+
+.filter__content {
+  font-size: 14px;
+}
+
+.filter__clear {
+  color: #bfc8cd;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 24px 0;
+  font-family: Simplon Norm Regular;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.filter__options {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.filter__option input {
+  cursor: pointer;
+  border: .75px solid #4d4d4d;
+  width: 18px;
+  height: 18px;
+}
+
+.filter__option span {
+  color: #252020;
+  padding-left: 8px;
+  font-family: Simplon Norm Regular;
+  font-size: 16px;
+}
+
+.filter__toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.filter__meta {
+  color: #252020;
+  font-family: Simplon Norm Regular;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=src_components_products-ui_ProductFilter_css_0w3-wzy._.single.css.map*/

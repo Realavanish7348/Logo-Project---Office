@@ -1,0 +1,224 @@
+/* [project]/src/components/ui/Footer.css [app-client] (css) */
+.footer {
+  color: #fff;
+  background-color: #000;
+  flex-direction: column;
+  gap: 1em;
+  padding: 32px 24px;
+  display: flex;
+}
+
+.footer__top {
+  border-bottom: 2px solid #fff;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.footer__newsletter {
+  border-bottom: 1px solid #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer__newsletter_text {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.footer__newsletter_text h4 {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.footer__newsletter_text p {
+  letter-spacing: 0;
+  font-family: Simplon Norm Regular;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.newsletter-form {
+  justify-content: space-between;
+  gap: 1rem;
+  width: 46%;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.newsletter-form .newsletter-form__input {
+  color: #bfc8cd;
+  vertical-align: middle;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  font-family: Simplon Norm Regular;
+  font-size: 18px;
+}
+
+.newsletter-form__button {
+  opacity: .3;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  border: 1.14px solid #fff;
+  border-radius: 5px;
+  padding: 14px 18px;
+  font-family: Simplon Norm Regular;
+  font-size: 18px;
+}
+
+.footer-contact__currency {
+  flex-direction: column;
+  gap: 1em;
+  display: flex;
+}
+
+.footer__contact {
+  border-bottom: 1px solid #fff;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 0;
+  display: flex;
+}
+
+.footer__title {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: 16px;
+}
+
+.footer__text {
+  letter-spacing: 0;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-family: Simplon Norm Regular;
+  font-size: 14px;
+  display: flex;
+}
+
+.footer__currency {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.currency {
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.currency__code {
+  letter-spacing: 1px;
+  vertical-align: middle;
+  font-family: Simplon Norm Bold;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.footer__note {
+  letter-spacing: 0;
+  font-family: Simplon Norm Regular;
+  font-size: 12px;
+  line-height: 100%;
+  display: none;
+}
+
+.footer__bottom {
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 36px;
+  display: flex;
+}
+
+.footer__column {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer__heading {
+  vertical-align: middle;
+  font-family: Simplon Norm Bold;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.footer__list {
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  display: flex;
+}
+
+.footer__list a {
+  vertical-align: middle;
+  color: #fff;
+  font-family: Simplon Norm Regular;
+  font-size: 18px;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.muse-hidden li {
+  display: none;
+}
+
+.links-hidden li {
+  display: none;
+}
+
+.footer__social {
+  gap: 12px;
+  display: flex;
+}
+
+.footer__payments {
+  flex-wrap: wrap;
+  gap: 8px;
+  display: flex;
+}
+
+.payments {
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 24px;
+  display: flex;
+}
+
+.social_payment-hidden {
+  display: none;
+}
+
+.brand-links, .quick-links, .social-payments {
+  border-bottom: 1px solid #fff;
+  justify-content: space-between;
+  padding: 24px 0;
+  display: flex;
+}
+
+.footer__copyright {
+  letter-spacing: 0;
+  text-align: center;
+  font-family: Simplon Norm Regular;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .footer__top {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_Footer_css_0w3-wzy._.single.css.map*/

@@ -40,7 +40,7 @@
 .product-title {
   letter-spacing: 0;
   font-family: Simplon Norm Bold;
-  font-size: 14px;
+  font-size: clamp(14px, 1.5vw, 18px);
   line-height: 100%;
   color: #252020;
   font-weight: 700;
@@ -49,9 +49,14 @@
 
 .product-description {
   text-transform: capitalize;
-  font-family: Simplon Norm Regular;
-  font-size: 10px;
+  font-family: "Simplon Norm Regular";
+  font-size: clamp(10px, 1.2vw, 14px);
   line-height: 100%;
   letter-spacing: 0;
   color: #888792;
+}
+@media (min-width: 1024px) {
+  .product-item {
+    width: 31.5%;
+  }
 }

@@ -3,7 +3,7 @@
 }
 .product-filter {
   position: absolute;
-  right: 192px;
+  right: 204px;
   top: 0px;
 }
 .product-list {
@@ -12,4 +12,14 @@
   margin-top: 24px;
   gap: 1rem;
   padding: 0px 24px 16px 24px;
+}
+@media (min-width: 1024px) {
+  .product_list_section {
+    display: grid;
+    grid-template-columns: 300px auto;
+    padding: 0px 96px;
+  }
+  .product-filter {
+    position: static;
+  }
 }

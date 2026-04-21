@@ -6,7 +6,7 @@ import React, { useState } from "react";
 function Headers() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="flex flex-col gap-1">
+    <header className="header gap-1">
       <nav className="navbar ">
         <div className="nav-1 ">
           {/* left */}
@@ -47,8 +47,8 @@ function Headers() {
             </a>
             <a className="brand ">
               <svg
-                width="20"
-                height="20"
+                // width="20"
+                // height="20"
                 viewBox="0 0 36 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,10 +86,11 @@ function Headers() {
           </div>
           {/* center */}
           <div className="nav__center">
-            <a className="brand-name">
+            <span className="brand-name">
+              {/* Logo */}
               <svg
-                width="61"
-                height="24"
+                // width="61"
+                // height="36"
                 viewBox="0 0 104 27"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +100,7 @@ function Headers() {
                   fill="black"
                 />
               </svg>
-            </a>
+            </span>
             <div className={`navbar__menu ${isMenuOpen ? "hidden__menu" : ""}`}>
               <a href="#" className="nav-style">
                 SHOP
@@ -232,7 +233,7 @@ function Headers() {
         </div>
       </nav>
       {/* tabs for mobile  */}
-      <div className="navbar__tabs ">
+      <div className="navbar__tabs hide_ui ">
         <a href="#" className="home_tab">
           HOME
         </a>

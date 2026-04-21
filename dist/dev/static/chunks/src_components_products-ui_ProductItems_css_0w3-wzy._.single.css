@@ -1,0 +1,64 @@
+/* [project]/src/components/products-ui/ProductItems.css [app-client] (css) */
+.product-item {
+  width: 48%;
+}
+
+.product_item_container {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .5rem;
+  display: flex;
+}
+
+.product-image {
+  object-fit: contain;
+  height: 280px;
+}
+
+.product-details {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+  height: fit-content;
+  display: flex;
+}
+
+.title_heart {
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.heart-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.product-title {
+  letter-spacing: 0;
+  color: #252020;
+  text-transform: uppercase;
+  font-family: Simplon Norm Bold;
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.product-description {
+  text-transform: capitalize;
+  letter-spacing: 0;
+  color: #888792;
+  font-family: Simplon Norm Regular;
+  font-size: clamp(10px, 1.2vw, 14px);
+  line-height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .product-item {
+    width: 31.5%;
+  }
+}
+
+/*# sourceMappingURL=src_components_products-ui_ProductItems_css_0w3-wzy._.single.css.map*/

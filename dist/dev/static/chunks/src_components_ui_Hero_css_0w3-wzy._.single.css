@@ -1,0 +1,56 @@
+/* [project]/src/components/ui/Hero.css [app-client] (css) */
+.hero-page {
+  justify-content: center;
+  align-items: center;
+  height: 168px;
+  margin: 48px auto;
+  display: flex;
+}
+
+.hero-box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-width: 350px;
+  max-width: 721px;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #252020;
+  font-family: Simplon Norm Regular;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.details {
+  letter-spacing: 0;
+  text-align: center;
+  font-family: Simplon Norm Regular;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (min-width: 1024px) {
+  .details {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
+  .hero-page {
+    height: 127px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_Hero_css_0w3-wzy._.single.css.map*/

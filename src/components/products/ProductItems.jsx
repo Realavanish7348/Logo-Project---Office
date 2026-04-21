@@ -12,7 +12,7 @@ function ProductItems({ product }) {
         </div>
         <div className="product-details">
           <div className="title_heart">
-            <h2 className="product-title truncate">{title}</h2>
+            <h2 className="product-title line-clamp-1">{title}</h2>
             <svg
               // width="24"
               // height="24"

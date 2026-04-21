@@ -1,0 +1,188 @@
+/* [project]/src/components/ui/Header.css [app-client] (css) */
+.header {
+  flex-direction: column;
+  display: flex;
+}
+
+.navbar {
+  height: 55px;
+  padding: 16px 24px 0;
+}
+
+.nav-1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav__left {
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.nav__center {
+  flex-direction: column;
+  gap: 3rem;
+  width: 640px;
+  margin: 0 auto;
+  padding-left: 32px;
+  display: flex;
+}
+
+.brand-name {
+  leading-trim: NONE;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: #000;
+  text-transform: uppercase;
+  align-self: center;
+  font-family: Inter;
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.navbar__menu {
+  display: none;
+}
+
+.nav__right {
+  gap: 12px;
+  display: flex;
+}
+
+.nav-action {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-style {
+  letter-spacing: 1px;
+  vertical-align: middle;
+  font-family: Simplon Norm Bold;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.nav_user, .language-selector {
+  display: none;
+}
+
+.language-selector__select {
+  appearance: none;
+  color: #1f2937;
+  cursor: pointer;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%236b7280' height='20' viewBox='0 0 20 20' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M5.516 7.548a.625.625 0 01.884-.032L10 10.87l3.6-3.354a.625.625 0 11.852.916l-4.026 3.75a.625.625 0 01-.852 0L5.548 8.432a.625.625 0 01-.032-.884z'/></svg>");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  outline: none;
+  padding: 0 0 6px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-size: 14px;
+  transition: all .2s;
+}
+
+.language-selector__select:hover {
+  background-color: #fafafa;
+  border-color: #9ca3af;
+}
+
+.language-selector__select:focus {
+  border-color: #2563eb;
+}
+
+.language-selector__select:disabled {
+  cursor: not-allowed;
+  opacity: .7;
+  background-color: #f3f4f6;
+}
+
+.navbar__tabs {
+  border-top: 1px solid #f1f1f1;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 16px 24px;
+  display: flex;
+}
+
+.home_tab {
+  color: #bfc8cd;
+  font-family: Simplon Norm Regular;
+  font-size: 12px;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.shop_tab {
+  color: #252020;
+  font-family: Simplon Norm Regular;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.brand {
+  width: 20px;
+  height: 20px;
+}
+
+.brand-name {
+  width: 61px;
+  height: 24px;
+  padding-top: 8px;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    border-bottom: 1px solid #e5e5e5;
+    height: 188px;
+    padding: 36px 96px 0;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar__tabs.hide_ui {
+    display: none;
+  }
+
+  .navbar__menu {
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    display: flex;
+  }
+
+  .toggle__menu {
+    display: none;
+  }
+
+  .brand {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand-name {
+    width: 61px;
+    height: 42px;
+  }
+
+  .nav_user, .language-selector {
+    display: block;
+  }
+
+  .nav-1 {
+    align-items: flex-start;
+  }
+
+  .nav-action {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_Header_css_0w3-wzy._.single.css.map*/
