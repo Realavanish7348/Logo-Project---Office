@@ -471,19 +471,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 ;
 function ProductItems(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(17);
-    if ($[0] !== "e3c29c88a277096d20e9c996b4c59db85e3f5f897cf81fcae63f01c18c70a9cf") {
-        for(let $i = 0; $i < 17; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(20);
+    if ($[0] !== "5801df6f772d1d067e33be2897d3d1144787d38586d03a975a9889cbe67319fb") {
+        for(let $i = 0; $i < 20; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e3c29c88a277096d20e9c996b4c59db85e3f5f897cf81fcae63f01c18c70a9cf";
+        $[0] = "5801df6f772d1d067e33be2897d3d1144787d38586d03a975a9889cbe67319fb";
     }
-    const { product } = t0;
-    console.log(product);
+    const { product, isFilter } = t0;
     const { description, title, image } = product;
-    let t1;
+    const t1 = `product-item ${isFilter ? "product_width_update" : ""}`;
+    let t2;
     if ($[1] !== image || $[2] !== title) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "product-image_box",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                 src: image,
@@ -491,38 +491,38 @@ function ProductItems(t0) {
                 className: "product-image"
             }, void 0, false, {
                 fileName: "[project]/src/components/products/ProductItems.jsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 45
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 10
         }, this);
         $[1] = image;
         $[2] = title;
-        $[3] = t1;
+        $[3] = t2;
     } else {
-        t1 = $[3];
+        t2 = $[3];
     }
-    let t2;
+    let t3;
     if ($[4] !== title) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "product-title line-clamp-1",
             children: title
         }, void 0, false, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 32,
+            lineNumber: 33,
             columnNumber: 10
         }, this);
         $[4] = title;
-        $[5] = t2;
+        $[5] = t3;
     } else {
-        t2 = $[5];
+        t3 = $[5];
     }
-    let t3;
+    let t4;
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             className: "heart-icon",
             viewBox: "0 0 24 24",
             fill: "none",
@@ -535,97 +535,106 @@ function ProductItems(t0) {
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/src/components/products/ProductItems.jsx",
-                lineNumber: 40,
+                lineNumber: 41,
                 columnNumber: 105
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 40,
+            lineNumber: 41,
             columnNumber: 10
         }, this);
-        $[6] = t3;
+        $[6] = t4;
     } else {
-        t3 = $[6];
+        t4 = $[6];
     }
-    let t4;
-    if ($[7] !== t2) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t5;
+    if ($[7] !== t3) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "title_heart",
             children: [
-                t2,
-                t3
+                t3,
+                t4
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 47,
+            lineNumber: 48,
             columnNumber: 10
         }, this);
-        $[7] = t2;
-        $[8] = t4;
+        $[7] = t3;
+        $[8] = t5;
     } else {
-        t4 = $[8];
+        t5 = $[8];
     }
-    let t5;
+    let t6;
     if ($[9] !== description) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "product-description line-clamp-3",
             children: description
         }, void 0, false, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 55,
+            lineNumber: 56,
             columnNumber: 10
         }, this);
         $[9] = description;
-        $[10] = t5;
+        $[10] = t6;
     } else {
-        t5 = $[10];
+        t6 = $[10];
     }
-    let t6;
-    if ($[11] !== t4 || $[12] !== t5) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t7;
+    if ($[11] !== t5 || $[12] !== t6) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "product-details",
             children: [
-                t4,
-                t5
+                t5,
+                t6
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 63,
+            lineNumber: 64,
             columnNumber: 10
         }, this);
-        $[11] = t4;
-        $[12] = t5;
-        $[13] = t6;
+        $[11] = t5;
+        $[12] = t6;
+        $[13] = t7;
     } else {
-        t6 = $[13];
+        t7 = $[13];
     }
-    let t7;
-    if ($[14] !== t1 || $[15] !== t6) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "product-item",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "product_item_container",
-                children: [
-                    t1,
-                    t6
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/products/ProductItems.jsx",
-                lineNumber: 72,
-                columnNumber: 40
-            }, this)
+    let t8;
+    if ($[14] !== t2 || $[15] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "product_item_container",
+            children: [
+                t2,
+                t7
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/products/ProductItems.jsx",
+            lineNumber: 73,
+            columnNumber: 10
+        }, this);
+        $[14] = t2;
+        $[15] = t7;
+        $[16] = t8;
+    } else {
+        t8 = $[16];
+    }
+    let t9;
+    if ($[17] !== t1 || $[18] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t1,
+            children: t8
         }, void 0, false, {
             fileName: "[project]/src/components/products/ProductItems.jsx",
-            lineNumber: 72,
+            lineNumber: 82,
             columnNumber: 10
         }, this);
-        $[14] = t1;
-        $[15] = t6;
-        $[16] = t7;
+        $[17] = t1;
+        $[18] = t8;
+        $[19] = t9;
     } else {
-        t7 = $[16];
+        t9 = $[19];
     }
-    return t7;
+    return t9;
 }
 _c = ProductItems;
 const __TURBOPACK__default__export__ = ProductItems;
@@ -1540,9 +1549,9 @@ function ProductList({ isFilter }) {
             getProducts();
         }
     }["ProductList.useEffect"], []);
-    console.log("Product list::", items);
+    // console.log("Product list::", items);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "product_list_section",
+        className: `product_list_section ${isFilter ? "noflex_update" : ""}`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "product-filter",
@@ -1550,32 +1559,33 @@ function ProductList({ isFilter }) {
                     isFilter: isFilter
                 }, void 0, false, {
                     fileName: "[project]/src/components/products/ProductList.jsx",
-                    lineNumber: 30,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/products/ProductList.jsx",
-                lineNumber: 29,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "product-list",
                 children: items.map((products)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$products$2f$ProductItems$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        product: products
+                        product: products,
+                        isFilter: isFilter
                     }, products.id, false, {
                         fileName: "[project]/src/components/products/ProductList.jsx",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 32
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/products/ProductList.jsx",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/products/ProductList.jsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 10
     }, this);
 }

@@ -24,16 +24,22 @@ function ProductList({ isFilter }) {
     }
     getProducts();
   }, []);
-  console.log("Product list::", items);
+  // console.log("Product list::", items);
 
   return (
-    <section className="product_list_section">
+    <section
+      className={`product_list_section ${isFilter ? "noflex_update" : ""}`}
+    >
       <div className="product-filter">
         <ProductFilter isFilter={isFilter} />
       </div>
       <div className="product-list">
         {items.map((products) => (
-          <ProductItems key={products.id} product={products} />
+          <ProductItems
+            key={products.id}
+            product={products}
+            isFilter={isFilter}
+          />
         ))}
       </div>
     </section>

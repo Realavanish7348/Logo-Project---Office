@@ -3,7 +3,7 @@
 }
 .product-filter {
   position: absolute;
-  right: 204px;
+  left: 10px;
   top: 0px;
 }
 .product-list {
@@ -15,11 +15,19 @@
 }
 @media (min-width: 1024px) {
   .product_list_section {
-    display: grid;
-    grid-template-columns: 300px auto;
+    display: flex;
     padding: 0px 96px;
+    gap: 0.5rem;
+  }
+  .noflex_update {
+    display: block;
   }
   .product-filter {
     position: static;
+    width: 300px;
+    min-width: 300px;
+  }
+  .product-list {
+    padding: 0px 0px 16px;
   }
 }
