@@ -797,6 +797,10 @@
     flex-shrink: 1;
   }
 
+  .flex-grow {
+    flex-grow: 1;
+  }
+
   .border-collapse {
     border-collapse: collapse;
   }
@@ -1312,7 +1316,7 @@ body {
 .newsletter-form {
   justify-content: space-between;
   gap: 1rem;
-  width: 46%;
+  width: 100%;
   padding-top: 16px;
   padding-bottom: 24px;
   display: flex;
@@ -1322,8 +1326,9 @@ body {
   color: #bfc8cd;
   vertical-align: middle;
   background-color: #fff;
-  border: none;
+  border-radius: 4px;
   outline: none;
+  flex-grow: 1;
   padding: 12px 16px;
   font-family: Simplon Norm Regular;
   font-size: 18px;
@@ -1359,8 +1364,13 @@ body {
 .footer__title {
   vertical-align: middle;
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-family: Simplon Norm Bold;
   font-size: 16px;
+}
+
+.mobile, .desktop {
+  display: none;
 }
 
 .footer__text {
@@ -1398,7 +1408,6 @@ body {
   font-family: Simplon Norm Regular;
   font-size: 12px;
   line-height: 100%;
-  display: none;
 }
 
 .footer__bottom {
@@ -1484,6 +1493,90 @@ body {
 @media (min-width: 350px) and (max-width: 600px) {
   .footer__top {
     flex-direction: column;
+  }
+
+  .footer__note, .para-desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 32px 36px 32px 96px;
+  }
+
+  .footer__newsletter, .footer__contact {
+    border: none;
+  }
+
+  .footer__newsletter {
+    width: 50%;
+  }
+
+  .footer-contact__currency {
+    width: 40%;
+  }
+
+  .footer__heading, .footer__title {
+    font-size: 20px;
+  }
+
+  .para-mobile {
+    display: none;
+  }
+
+  .footer__contact {
+    margin-bottom: 18px;
+    padding: 0;
+  }
+
+  .footer__text {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .footer__text svg {
+    display: none;
+  }
+
+  .desktop {
+    display: inline;
+  }
+
+  .newsletter-form__button {
+    padding: 16px 36px;
+  }
+
+  .footer__bottom {
+    flex-direction: row;
+  }
+
+  .arrow-down-btn {
+    display: none;
+  }
+
+  .social_payment-hidden {
+    display: block;
+  }
+
+  .brand-links, .quick-links, .social-payments {
+    border: none;
+  }
+
+  .footer__column {
+    gap: 2rem;
+  }
+
+  :is(.muse-hidden, .links-hidden) li {
+    display: block;
+  }
+
+  .social_with_payments {
+    width: 40%;
   }
 }
 
