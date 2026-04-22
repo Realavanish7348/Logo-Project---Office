@@ -1,6 +1,9 @@
 /* [project]/src/components/ui/Header.css [app-client] (css) */
 .header {
+  z-index: 1000;
+  background-color: #fff;
   flex-direction: column;
+  width: 100%;
   display: flex;
 }
 
@@ -29,18 +32,6 @@
   margin: 0 auto;
   padding-left: 32px;
   display: flex;
-}
-
-.brand-name {
-  leading-trim: NONE;
-  letter-spacing: 1px;
-  vertical-align: middle;
-  color: #000;
-  text-transform: uppercase;
-  align-self: center;
-  font-family: Inter;
-  font-size: 36px;
-  line-height: 100%;
 }
 
 .navbar__menu {
@@ -130,9 +121,30 @@
 }
 
 .brand-name {
+  letter-spacing: 1px;
+  vertical-align: middle;
+  color: #000;
+  text-transform: uppercase;
+  align-self: center;
   width: 61px;
   height: 24px;
   padding-top: 8px;
+  font-family: Inter;
+  font-size: 36px;
+  line-height: 100%;
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
+  .navbar {
+    z-index: 1000;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+  }
+
+  .navbar__tabs {
+    margin-top: 55px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -140,6 +152,7 @@
     border-bottom: 1px solid #e5e5e5;
     height: 188px;
     padding: 36px 96px 0;
+    position: fixed;
   }
 
   .navbar {
@@ -167,8 +180,8 @@
   }
 
   .brand-name {
-    width: 61px;
-    height: 42px;
+    width: 107px;
+    height: 44px;
   }
 
   .nav_user, .language-selector {
@@ -638,6 +651,10 @@
     position: sticky;
   }
 
+  .-start {
+    inset-inline-start: calc(var(--spacing) * -1);
+  }
+
   .start {
     inset-inline-start: var(--spacing);
   }
@@ -935,6 +952,10 @@
 
   .\[app\:\5 6\] {
     app: 6;
+  }
+
+  .\[app\:\5 �\5 \] {
+    app: �;
   }
 
   .\[key\:g\4 4ng\] {
@@ -1506,7 +1527,7 @@ body {
 
 @media (min-width: 1024px) {
   .footer {
-    padding: 32px 36px 32px 96px;
+    padding: 48px 48px 32px 96px;
   }
 
   .footer__newsletter, .footer__contact {

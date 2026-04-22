@@ -15,6 +15,24 @@
   object-fit: contain;
 }
 
+.product-image_box {
+  position: relative;
+}
+
+.product-price {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-family: "Simplon Norm Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #252020;
+  backdrop-filter: blur(2px);
+}
+
 .product-details {
   /* border: 2px solid blue; */
   display: flex;

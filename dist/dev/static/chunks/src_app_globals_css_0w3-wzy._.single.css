@@ -451,6 +451,10 @@
     position: sticky;
   }
 
+  .-start {
+    inset-inline-start: calc(var(--spacing) * -1);
+  }
+
   .start {
     inset-inline-start: var(--spacing);
   }
@@ -748,6 +752,10 @@
 
   .\[app\:\5 6\] {
     app: 6;
+  }
+
+  .\[app\:\5 �\5 \] {
+    app: �;
   }
 
   .\[key\:g\4 4ng\] {

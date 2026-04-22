@@ -4,6 +4,9 @@ const nextConfig = {
   reactCompiler: true,
   output: "export",
   distDir: "dist",
+  images: {
+    remotePatterns: [{ hostname: "fakestoreapi.com" }],
+  },
 };
 
 export default nextConfig;

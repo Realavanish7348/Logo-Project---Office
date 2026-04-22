@@ -85,3 +85,15 @@
   font-size: 18px;
   color: #252020;
 }
+
+.filter__content {
+  display: none;
+}
+
+.filter__content.open {
+  display: block;
+}
+
+.filter__toggle.active {
+  transform: rotate(180deg);
+}

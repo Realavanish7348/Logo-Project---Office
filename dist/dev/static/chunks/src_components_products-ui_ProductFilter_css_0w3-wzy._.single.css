@@ -99,4 +99,16 @@
   font-size: 18px;
 }
 
+.filter__content {
+  display: none;
+}
+
+.filter__content.open {
+  display: block;
+}
+
+.filter__toggle.active {
+  transform: rotate(180deg);
+}
+
 /*# sourceMappingURL=src_components_products-ui_ProductFilter_css_0w3-wzy._.single.css.map*/

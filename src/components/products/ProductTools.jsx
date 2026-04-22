@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 import "@/components/products-ui/ProductTools.css";
 
-function ProductTools({ isFilter, setIsFilter }) {
+function ProductTools({ isFilter, setIsFilter, items }) {
   const [isToggle, setIsToggle] = useState(true);
 
   return (
     <section className="product-toolbar">
       <div className="product-toolbar__left">
-        <span className="product-count">3425 ITEMS</span>
+        <span className="product-count">{items.length} ITEMS</span>
 
         <button
           className="filter-toggle"

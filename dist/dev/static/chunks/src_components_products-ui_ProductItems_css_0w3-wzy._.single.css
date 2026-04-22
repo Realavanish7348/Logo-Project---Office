@@ -15,6 +15,25 @@
   height: 280px;
 }
 
+.product-image_box {
+  position: relative;
+}
+
+.product-price {
+  color: #252020;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background: #ffffffb3;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-family: Simplon Norm Bold, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 .product-details {
   flex-direction: column;
   justify-content: flex-start;

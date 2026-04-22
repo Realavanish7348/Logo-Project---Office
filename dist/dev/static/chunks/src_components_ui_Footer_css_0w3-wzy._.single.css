@@ -236,7 +236,7 @@
 
 @media (min-width: 1024px) {
   .footer {
-    padding: 32px 36px 32px 96px;
+    padding: 48px 48px 32px 96px;
   }
 
   .footer__newsletter, .footer__contact {

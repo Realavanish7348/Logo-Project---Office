@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   height: 168px;
-  margin: 48px auto;
+  margin: 245px auto 48px;
   display: flex;
 }
 
@@ -286,6 +286,25 @@
   height: 280px;
 }
 
+.product-image_box {
+  position: relative;
+}
+
+.product-price {
+  color: #252020;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background: #ffffffb3;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-family: Simplon Norm Bold, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 .product-details {
   flex-direction: column;
   justify-content: flex-start;
@@ -435,6 +454,18 @@
   color: #252020;
   font-family: Simplon Norm Regular;
   font-size: 18px;
+}
+
+.filter__content {
+  display: none;
+}
+
+.filter__content.open {
+  display: block;
+}
+
+.filter__toggle.active {
+  transform: rotate(180deg);
 }
 
 /*# sourceMappingURL=src_components_00pzuqo._.css.map*/

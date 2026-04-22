@@ -7,11 +7,16 @@ import ProductList from "../products/ProductList";
 
 function Main() {
   const [isFilter, setIsFilter] = useState(false);
+  const [items, setItems] = useState([]);
   return (
     <>
       <Hero />
-      <ProductTools isFilter={isFilter} setIsFilter={setIsFilter} />
-      <ProductList isFilter={isFilter} />
+      <ProductTools
+        isFilter={isFilter}
+        setIsFilter={setIsFilter}
+        items={items}
+      />
+      <ProductList isFilter={isFilter} items={items} setItems={setItems} />
     </>
   );
 }

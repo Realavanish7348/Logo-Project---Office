@@ -2,12 +2,14 @@ import React from "react";
 import "@/components/products-ui/ProductItems.css";
 
 function ProductItems({ product, isFilter }) {
-  const { id, description, title, image } = product;
+  // console.log("product:", product);
+  const { id, description, title, image, price } = product;
   return (
     <div className={`product-item ${isFilter ? "product_width_update" : ""}`}>
       <div className="product_item_container">
         <div className="product-image_box">
           <img src={image} alt={title} className="product-image" />
+          <span className="product-price">${price}</span>
         </div>
         <div className="product-details">
           <div className="title_heart">
