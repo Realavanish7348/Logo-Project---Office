@@ -75,10 +75,14 @@
   }
 }
 .filter__toggle {
+  width: 100%;
+  cursor: pointer;
   background: none;
   border: none;
   outline: none;
-  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .filter__meta {
   font-family: "Simplon Norm Regular";
@@ -94,6 +98,6 @@
   display: block;
 }
 
-.filter__toggle.active {
+.rotate_arrow.active {
   transform: rotate(180deg);
 }

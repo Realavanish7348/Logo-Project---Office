@@ -1,0 +1,73 @@
+/* [project]/src/components/ui/Loading.css [app-client] (css) */
+.loading-container {
+  z-index: 9999;
+  background: #fffffff2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loading-spinner {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.spinner-ring {
+  border: 4px solid #0000;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.spinner-ring:first-child {
+  border-top-color: #292d32;
+  animation: 1s linear infinite spin;
+}
+
+.spinner-ring:nth-child(2) {
+  border-right-color: #888792;
+  width: 60px;
+  height: 60px;
+  animation: 1.2s linear infinite reverse spin;
+  top: 10px;
+  left: 10px;
+}
+
+.spinner-ring:nth-child(3) {
+  border-bottom-color: #e5e5e5;
+  width: 40px;
+  height: 40px;
+  animation: .8s linear infinite spin;
+  top: 20px;
+  left: 20px;
+}
+
+.loading-text {
+  color: #292d32;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-family: Simplon Norm Regular, sans-serif;
+  font-size: 16px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_Loading_css_0w3-wzy._.single.css.map*/

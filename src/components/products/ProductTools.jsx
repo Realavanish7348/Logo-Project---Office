@@ -1,9 +1,27 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "@/components/products-ui/ProductTools.css";
 
 function ProductTools({ isFilter, setIsFilter, items }) {
   const [isToggle, setIsToggle] = useState(true);
+
+  const dropdownRef = useRef(null); // Add ref for dropdown
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // console.log("event.target:", event.target);
+      // Close only if click is outside the dropdown element
+      // console.log(dropdownRef.current.contains(event.target));
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsToggle(true); // true = closed (based on your logic)
+      }
+    };
+
+    window.addEventListener("click", handleClickOutside);
+
+    // Cleanup on unmount
+    return () => window.removeEventListener("click", handleClickOutside);
+  }, []);
 
   return (
     <section className="product-toolbar">
@@ -16,7 +34,9 @@ function ProductTools({ isFilter, setIsFilter, items }) {
           onClick={() => setIsFilter(!isFilter)}
         >
           <span className="filter-toggle__icon">‹</span>
-          <span className="filter-toggle__text">HIDE FILTER</span>
+          <span className="filter-toggle__text">
+            {isFilter ? "SHOW FILTER" : "HIDE FILTER"}
+          </span>
         </button>
       </div>
 
@@ -38,7 +58,7 @@ function ProductTools({ isFilter, setIsFilter, items }) {
         </svg>
       </span>
 
-      <div className="product-toolbar__right">
+      <div className="product-toolbar__right" ref={dropdownRef}>
         <button
           className="sort-button"
           type="button"

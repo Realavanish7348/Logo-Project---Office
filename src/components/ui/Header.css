@@ -167,7 +167,7 @@
 }
 @media (min-width: 1024px) {
   .header {
-    height: 188px;
+    height: 168px;
     border-bottom: 1px solid #e5e5e5;
     padding: 36px 96px 0;
     position: fixed;

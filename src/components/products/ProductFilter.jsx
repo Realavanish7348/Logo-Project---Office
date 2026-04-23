@@ -83,47 +83,49 @@ function ProductFilter({
           return (
             <section key={filter.id} className="filter">
               <header className="filter__header">
-                <h3 className="filter__title">{filter.title}</h3>
                 <button
                   type="button"
-                  className={`filter__toggle ${isOpen ? "active" : ""}`}
+                  className={`filter__toggle`}
                   aria-expanded="true"
                   aria-label="Collapse Ideal For"
                   onClick={() => handleToggle(filter.id)}
                 >
-                  {toggleArrow ? (
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M2.72003 10.73L7.0667 6.3849C7.58003 5.87174 8.42003 5.87174 8.93336 6.3849L13.28 10.73"
-                        stroke="#292D32"
-                        strokeMiterlimit="10"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  ) : (
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M2.72125 5.99978L7.06792 10.3464C7.58125 10.8598 8.42125 10.8598 8.93458 10.3464L13.2813 5.99978"
-                        stroke="#292D32"
-                        strokeMiterlimit="10"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  )}
+                  <h3 className="filter__title">{filter.title}</h3>
+                  <div className={`rotate_arrow ${isOpen ? "active" : ""}`}>
+                    {toggleArrow ? (
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2.72003 10.73L7.0667 6.3849C7.58003 5.87174 8.42003 5.87174 8.93336 6.3849L13.28 10.73"
+                          stroke="#292D32"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2.72125 5.99978L7.06792 10.3464C7.58125 10.8598 8.42125 10.8598 8.93458 10.3464L13.2813 5.99978"
+                          stroke="#292D32"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    )}
+                  </div>
                 </button>
               </header>
               <div className="drop_down-content">

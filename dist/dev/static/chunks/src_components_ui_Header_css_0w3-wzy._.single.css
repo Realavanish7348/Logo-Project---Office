@@ -150,7 +150,7 @@
 @media (min-width: 1024px) {
   .header {
     border-bottom: 1px solid #e5e5e5;
-    height: 188px;
+    height: 168px;
     padding: 36px 96px 0;
     position: fixed;
   }
