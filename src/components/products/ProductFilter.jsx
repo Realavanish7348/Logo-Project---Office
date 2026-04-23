@@ -1,10 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { filterData } from "@/lib/filterData";
 import "@/components/products-ui/ProductFilter.css";
 
 function ProductFilter({
   isFilter,
+  setIsFilter,
   selected,
   setSelected,
   selectAllState,
@@ -59,8 +60,20 @@ function ProductFilter({
       };
     });
   }
-  // console.log("selected:", selected);
-  // console.log("selectAllState:", selectAllState);
+
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
+    function handleFilterScroll() {
+      // Filter visible (isFilter=false) -> hide it (set to true)
+      if (!isFilter) setIsFilter(true);
+    }
+    if (isMobile) {
+      window.addEventListener("scroll", handleFilterScroll);
+    }
+    return () => {
+      window.removeEventListener("scroll", handleFilterScroll);
+    };
+  }, [isFilter]);
 
   return (
     <aside

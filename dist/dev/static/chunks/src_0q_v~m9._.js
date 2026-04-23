@@ -936,14 +936,14 @@ var _s = __turbopack_context__.k.signature();
 ;
 function ProductFilter(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(24);
-    if ($[0] !== "884ba07defa1391959f50b0ec73c106ebf612c2cfacbc9a6052f5f54bcc98eda") {
-        for(let $i = 0; $i < 24; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(29);
+    if ($[0] !== "702ad1a44b59731c95656e6f00bde8559bc5efed8870f7ec205eb89d1204dfe8") {
+        for(let $i = 0; $i < 29; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "884ba07defa1391959f50b0ec73c106ebf612c2cfacbc9a6052f5f54bcc98eda";
+        $[0] = "702ad1a44b59731c95656e6f00bde8559bc5efed8870f7ec205eb89d1204dfe8";
     }
-    const { isFilter, selected, setSelected, selectAllState, setSelectAllState } = t0;
+    const { isFilter, setIsFilter, selected, setSelected, selectAllState, setSelectAllState } = t0;
     const [openSection, setOpenSection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [toggleArrow, setToggleArrow] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t1;
@@ -1028,10 +1028,45 @@ function ProductFilter(t0) {
         t3 = $[9];
     }
     const handleCheckboxChange = t3;
-    const t4 = `filters ${isFilter ? "hide-filters" : ""}`;
+    let t4;
+    if ($[10] !== isFilter || $[11] !== setIsFilter) {
+        t4 = ({
+            "ProductFilter[useEffect()]": ()=>{
+                const isMobile = window.innerWidth <= 768;
+                const handleFilterScroll = function handleFilterScroll() {
+                    if (!isFilter) {
+                        setIsFilter(true);
+                    }
+                };
+                if (isMobile) {
+                    window.addEventListener("scroll", handleFilterScroll);
+                }
+                return ()=>{
+                    window.removeEventListener("scroll", handleFilterScroll);
+                };
+            }
+        })["ProductFilter[useEffect()]"];
+        $[10] = isFilter;
+        $[11] = setIsFilter;
+        $[12] = t4;
+    } else {
+        t4 = $[12];
+    }
     let t5;
-    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+    if ($[13] !== isFilter) {
+        t5 = [
+            isFilter
+        ];
+        $[13] = isFilter;
+        $[14] = t5;
+    } else {
+        t5 = $[14];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t4, t5);
+    const t6 = `filters ${isFilter ? "hide-filters" : ""}`;
+    let t7;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "filter",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                 className: "filter__checkbox",
@@ -1041,34 +1076,34 @@ function ProductFilter(t0) {
                         name: "customizable"
                     }, void 0, false, {
                         fileName: "[project]/src/components/products/ProductFilter.jsx",
-                        lineNumber: 106,
+                        lineNumber: 140,
                         columnNumber: 74
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         children: "CUSTOMIZABLE"
                     }, void 0, false, {
                         fileName: "[project]/src/components/products/ProductFilter.jsx",
-                        lineNumber: 106,
+                        lineNumber: 140,
                         columnNumber: 119
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/products/ProductFilter.jsx",
-                lineNumber: 106,
+                lineNumber: 140,
                 columnNumber: 38
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/products/ProductFilter.jsx",
-            lineNumber: 106,
+            lineNumber: 140,
             columnNumber: 10
         }, this);
-        $[10] = t5;
+        $[15] = t7;
     } else {
-        t5 = $[10];
+        t7 = $[15];
     }
-    let t6;
-    if ($[11] !== handleCheckboxChange || $[12] !== handleSelectAll || $[13] !== handleToggle || $[14] !== openSection || $[15] !== selectAllState || $[16] !== selected || $[17] !== toggleArrow) {
-        t6 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$filterData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["filterData"].map({
+    let t8;
+    if ($[16] !== handleCheckboxChange || $[17] !== handleSelectAll || $[18] !== handleToggle || $[19] !== openSection || $[20] !== selectAllState || $[21] !== selected || $[22] !== toggleArrow) {
+        t8 = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$filterData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["filterData"].map({
             "ProductFilter[filterData.map()]": (filter_0, i)=>{
                 const isOpen = openSection === filter_0.id;
                 selected[filter_0.id] || [];
@@ -1091,7 +1126,7 @@ function ProductFilter(t0) {
                                         children: filter_0.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                        lineNumber: 119,
+                                        lineNumber: 153,
                                         columnNumber: 70
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1110,12 +1145,12 @@ function ProductFilter(t0) {
                                                 strokeLinejoin: "round"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                                lineNumber: 119,
+                                                lineNumber: 153,
                                                 columnNumber: 289
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 153,
                                             columnNumber: 194
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                             width: "16",
@@ -1131,28 +1166,28 @@ function ProductFilter(t0) {
                                                 strokeLinejoin: "round"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                                lineNumber: 119,
+                                                lineNumber: 153,
                                                 columnNumber: 577
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 153,
                                             columnNumber: 482
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                        lineNumber: 119,
+                                        lineNumber: 153,
                                         columnNumber: 121
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                lineNumber: 117,
+                                lineNumber: 151,
                                 columnNumber: 97
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/products/ProductFilter.jsx",
-                            lineNumber: 117,
+                            lineNumber: 151,
                             columnNumber: 62
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1163,7 +1198,7 @@ function ProductFilter(t0) {
                                     children: "All"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                    lineNumber: 119,
+                                    lineNumber: 153,
                                     columnNumber: 836
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1179,7 +1214,7 @@ function ProductFilter(t0) {
                                             children: selectAllState[filter_0.id] ? "Unselect all" : "Select all"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 153,
                                             columnNumber: 929
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1202,98 +1237,98 @@ function ProductFilter(t0) {
                                                                 }["ProductFilter[filterData.map() > filter_0.options.map() > <input>.onChange]"]
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                                                lineNumber: 124,
+                                                                lineNumber: 158,
                                                                 columnNumber: 80
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: opt_0.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 160,
                                                                 columnNumber: 107
                                                             }, this)
                                                         ]
                                                     }, opt_0.value, true, {
                                                         fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                                        lineNumber: 124,
+                                                        lineNumber: 158,
                                                         columnNumber: 28
                                                     }, this);
                                                 }
                                             }["ProductFilter[filterData.map() > filter_0.options.map()]"])
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 155,
                                             columnNumber: 142
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/products/ProductFilter.jsx",
-                                    lineNumber: 119,
+                                    lineNumber: 153,
                                     columnNumber: 871
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/products/ProductFilter.jsx",
-                            lineNumber: 119,
+                            lineNumber: 153,
                             columnNumber: 801
                         }, this)
                     ]
                 }, filter_0.id, true, {
                     fileName: "[project]/src/components/products/ProductFilter.jsx",
-                    lineNumber: 117,
+                    lineNumber: 151,
                     columnNumber: 16
                 }, this);
             }
         }["ProductFilter[filterData.map()]"]);
-        $[11] = handleCheckboxChange;
-        $[12] = handleSelectAll;
-        $[13] = handleToggle;
-        $[14] = openSection;
-        $[15] = selectAllState;
-        $[16] = selected;
-        $[17] = toggleArrow;
-        $[18] = t6;
-    } else {
-        t6 = $[18];
-    }
-    let t7;
-    if ($[19] !== t6) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-            className: "filters__form",
-            children: [
-                t5,
-                t6
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/products/ProductFilter.jsx",
-            lineNumber: 144,
-            columnNumber: 10
-        }, this);
-        $[19] = t6;
-        $[20] = t7;
-    } else {
-        t7 = $[20];
-    }
-    let t8;
-    if ($[21] !== t4 || $[22] !== t7) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-            className: t4,
-            "aria-label": "Product Filters",
-            children: t7
-        }, void 0, false, {
-            fileName: "[project]/src/components/products/ProductFilter.jsx",
-            lineNumber: 152,
-            columnNumber: 10
-        }, this);
-        $[21] = t4;
-        $[22] = t7;
+        $[16] = handleCheckboxChange;
+        $[17] = handleSelectAll;
+        $[18] = handleToggle;
+        $[19] = openSection;
+        $[20] = selectAllState;
+        $[21] = selected;
+        $[22] = toggleArrow;
         $[23] = t8;
     } else {
         t8 = $[23];
     }
-    return t8;
+    let t9;
+    if ($[24] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+            className: "filters__form",
+            children: [
+                t7,
+                t8
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/products/ProductFilter.jsx",
+            lineNumber: 178,
+            columnNumber: 10
+        }, this);
+        $[24] = t8;
+        $[25] = t9;
+    } else {
+        t9 = $[25];
+    }
+    let t10;
+    if ($[26] !== t6 || $[27] !== t9) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+            className: t6,
+            "aria-label": "Product Filters",
+            children: t9
+        }, void 0, false, {
+            fileName: "[project]/src/components/products/ProductFilter.jsx",
+            lineNumber: 186,
+            columnNumber: 11
+        }, this);
+        $[26] = t6;
+        $[27] = t9;
+        $[28] = t10;
+    } else {
+        t10 = $[28];
+    }
+    return t10;
 }
-_s(ProductFilter, "alAcLYYZxXO7k/H6KdMSmHpYMGM=");
+_s(ProductFilter, "gMiRv38oIxSBIiKiZpVwJLOctc4=");
 _c = ProductFilter;
 function _ProductFilterHandleSelectAllSetSelectedOptionsMap(opt) {
     return opt.value;
@@ -1410,7 +1445,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function ProductList({ isFilter, items, setItems }) {
+function ProductList({ isFilter, setIsFilter, items, setItems }) {
     _s();
     const [selected, setSelected] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({}); // selcted option current by checkboxes
     const [selectAllState, setSelectAllState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({}); // selected filter section state true/false
@@ -1444,18 +1479,19 @@ function ProductList({ isFilter, items, setItems }) {
                 className: "product-filter",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$products$2f$ProductFilter$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     isFilter: isFilter,
+                    setIsFilter: setIsFilter,
                     selected: selected,
                     setSelected: setSelected,
                     selectAllState: selectAllState,
                     setSelectAllState: setSelectAllState
                 }, void 0, false, {
                     fileName: "[project]/src/components/products/ProductList.jsx",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/products/ProductList.jsx",
-                lineNumber: 38,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1471,22 +1507,22 @@ function ProductList({ isFilter, items, setItems }) {
                         isFilter: isFilter
                     }, product_0.id, false, {
                         fileName: "[project]/src/components/products/ProductList.jsx",
-                        lineNumber: 48,
+                        lineNumber: 49,
                         columnNumber: 27
                     }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Loading$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/components/products/ProductList.jsx",
-                    lineNumber: 48,
+                    lineNumber: 49,
                     columnNumber: 106
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/products/ProductList.jsx",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/products/ProductList.jsx",
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 10
     }, this);
 }
@@ -1524,11 +1560,11 @@ var _s = __turbopack_context__.k.signature();
 function Main() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "72b6c0cb6dcc78016278914091fc946f2b935cf7572b58360a1b8878dd7308d3") {
+    if ($[0] !== "49fb11d6dfe35e96134abef7b16c62e3ab700bfc0e17f0e044f4149677308dfb") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "72b6c0cb6dcc78016278914091fc946f2b935cf7572b58360a1b8878dd7308d3";
+        $[0] = "49fb11d6dfe35e96134abef7b16c62e3ab700bfc0e17f0e044f4149677308dfb";
     }
     const [isFilter, setIsFilter] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     let t0;
@@ -1566,6 +1602,7 @@ function Main() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$products$2f$ProductList$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     isFilter: isFilter,
+                    setIsFilter: setIsFilter,
                     items: items,
                     setItems: setItems
                 }, void 0, false, {

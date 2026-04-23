@@ -139,9 +139,12 @@
   justify-content: space-between;
 }
 .footer__column {
+  width: 100%;
+}
+.footer__heading-arrow {
   display: flex;
-  flex-direction: column;
-  /* gap: 24px; */
+  justify-content: space-between;
+  align-items: center;
 }
 .footer__heading {
   font-family: "Simplon Norm Bold";
@@ -226,8 +229,17 @@
   .mobile {
     display: inline;
   }
+
+  .footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 @media (min-width: 1024px) {
+  .social_payment-hidden {
+    display: flex;
+  }
   .footer {
     padding: 48px 48px 32px 96px;
   }
@@ -276,15 +288,15 @@
   .arrow-down-btn {
     display: none;
   }
-  .social_payment-hidden {
-    display: block;
-  }
+
   .brand-links,
   .quick-links,
   .social-payments {
     border: none;
   }
   .footer__column {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
   }
   .muse-hidden,

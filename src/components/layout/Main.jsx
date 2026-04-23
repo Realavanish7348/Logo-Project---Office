@@ -16,7 +16,12 @@ function Main() {
         setIsFilter={setIsFilter}
         items={items}
       />
-      <ProductList isFilter={isFilter} items={items} setItems={setItems} />
+      <ProductList
+        isFilter={isFilter}
+        setIsFilter={setIsFilter}
+        items={items}
+        setItems={setItems}
+      />
     </>
   );
 }

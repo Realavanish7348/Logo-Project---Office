@@ -5,7 +5,7 @@ import ProductItems from "./ProductItems";
 import ProductFilter from "./ProductFilter";
 import Loading from "@/components/ui/Loading";
 
-function ProductList({ isFilter, items, setItems }) {
+function ProductList({ isFilter, setIsFilter, items, setItems }) {
   const [selected, setSelected] = useState({}); // selcted option current by checkboxes
   const [selectAllState, setSelectAllState] = useState({}); // selected filter section state true/false
   const [loading, setLoading] = useState(true);
@@ -39,6 +39,7 @@ function ProductList({ isFilter, items, setItems }) {
       <div className="product-filter">
         <ProductFilter
           isFilter={isFilter}
+          setIsFilter={setIsFilter}
           selected={selected}
           setSelected={setSelected}
           selectAllState={selectAllState}

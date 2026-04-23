@@ -1,0 +1,2177 @@
+(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/src/components/layout/Headers.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.4_@babel+core@7.2_c1c1e5dcafadb6528839ff3407e67c44/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.4_@babel+core@7.2_c1c1e5dcafadb6528839ff3407e67c44/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.4_@babel+core@7.2_c1c1e5dcafadb6528839ff3407e67c44/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+function Headers() {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
+    if ($[0] !== "13adbb9547b6b185f26890026f98991c035e26249714fbabd274e6e83f07697a") {
+        for(let $i = 0; $i < 31; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "13adbb9547b6b185f26890026f98991c035e26249714fbabd274e6e83f07697a";
+    }
+    const [isMenuOpen, setIsMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    let t0;
+    if ($[1] !== isMenuOpen) {
+        t0 = ({
+            "Headers[<a>.onClick]": (e)=>{
+                e.preventDefault();
+                setIsMenuOpen(!isMenuOpen);
+            }
+        })["Headers[<a>.onClick]"];
+        $[1] = isMenuOpen;
+        $[2] = t0;
+    } else {
+        t0 = $[2];
+    }
+    let t1;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 20 20",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M2 9.5L18 9.5",
+                    stroke: "#292D32",
+                    strokeWidth: "1.5",
+                    strokeLinecap: "round"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 30,
+                    columnNumber: 105
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M2 16L18 16",
+                    stroke: "#292D32",
+                    strokeWidth: "1.5",
+                    strokeLinecap: "round"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 30,
+                    columnNumber: 188
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M2 3L18 3",
+                    stroke: "#292D32",
+                    strokeWidth: "1.5",
+                    strokeLinecap: "round"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 30,
+                    columnNumber: 269
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 30,
+            columnNumber: 10
+        }, this);
+        $[3] = t1;
+    } else {
+        t1 = $[3];
+    }
+    let t2;
+    if ($[4] !== t0) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            className: "toggle__menu",
+            onClick: t0,
+            children: t1
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 37,
+            columnNumber: 10
+        }, this);
+        $[4] = t0;
+        $[5] = t2;
+    } else {
+        t2 = $[5];
+    }
+    let t3;
+    let t4;
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "M-248 -480C-248 -481.105 -247.105 -482 -246 -482H4812C4813.1 -482 4814 -481.105 4814 -480V4433C4814 4434.1 4813.1 4435 4812 4435H-246C-247.104 4435 -248 4434.1 -248 4433V-480Z",
+            fill: "#282828"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 47,
+            columnNumber: 10
+        }, this);
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "M-246 -481H4812V-483H-246V-481ZM4813 -480V4433H4815V-480H4813ZM4812 4434H-246V4436H4812V4434ZM-247 4433V-480H-249V4433H-247ZM-246 4434C-246.552 4434 -247 4433.55 -247 4433H-249C-249 4434.66 -247.657 4436 -246 4436V4434ZM4813 4433C4813 4433.55 4812.55 4434 4812 4434V4436C4813.66 4436 4815 4434.66 4815 4433H4813ZM4812 -481C4812.55 -481 4813 -480.552 4813 -480H4815C4815 -481.657 4813.66 -483 4812 -483V-481ZM-246 -483C-247.657 -483 -249 -481.657 -249 -480H-247C-247 -480.552 -246.552 -481 -246 -481V-483Z",
+            fill: "black",
+            fillOpacity: "0.1"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 48,
+            columnNumber: 10
+        }, this);
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+            width: "1440",
+            height: "4373",
+            transform: "translate(-96 -72)",
+            fill: "white"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 49,
+            columnNumber: 10
+        }, this);
+        $[6] = t3;
+        $[7] = t4;
+        $[8] = t5;
+    } else {
+        t3 = $[6];
+        t4 = $[7];
+        t5 = $[8];
+    }
+    let t6;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            className: "brand ",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 36 36",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    t3,
+                    t4,
+                    t5,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("mask", {
+                        id: "path-3-inside-1_0_1",
+                        fill: "white",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M-96 -40H1344V148H-96V-40Z"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Headers.jsx",
+                            lineNumber: 60,
+                            columnNumber: 160
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 60,
+                        columnNumber: 116
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M-96 -40H1344V148H-96V-40Z",
+                        fill: "white"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 60,
+                        columnNumber: 206
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M1344 147H-96V149H1344V147Z",
+                        fill: "#E5E5E5",
+                        mask: "url(#path-3-inside-1_0_1)"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 60,
+                        columnNumber: 258
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M1.54286 28.8C0.257146 31.6714 0.0857196 34.2 0.0857196 35.1857C0.0857196 35.4429 0.300006 35.6143 0.514291 35.6143C1.75715 35.5286 5.44287 35.1428 8.70002 33.1286C9.2143 32.7857 9.72859 32.4857 10.1572 32.1429C15.8572 28.0286 17.0143 21.7286 17.1857 20.1429C17.3572 20.0143 17.4429 19.9286 17.5714 19.8H17.9572C18.1286 19.9286 18.2143 20.0143 18.3857 20.1857C18.5143 21.6 19.3286 26.7 24.0429 30.9857C24.1715 31.1143 24.3429 31.1143 24.5143 31.0714C24.7286 30.9857 24.9429 30.8571 25.2 30.6857C25.4572 30.5571 25.4572 30.2143 25.2429 30.0429C20.6143 25.9714 19.9714 20.2714 19.9286 20.0143C28.0286 21.1714 31.2857 27.0857 31.2857 27C31.8857 27.8571 31.9715 28.1571 32.1429 28.5C32.1429 28.5 33.3857 30.5571 33.8572 33.4714C33.9 33.7286 33.6857 33.9857 33.3857 33.9428C32.0572 33.7286 30.8572 33.3429 29.9572 33C29.8286 32.9571 29.6572 32.9571 29.5715 33.0429C29.3572 33.2143 29.1429 33.3857 28.9286 33.5143C28.6715 33.6857 28.7143 34.1143 29.0143 34.2C30.4715 34.8428 32.6572 35.4857 35.1858 35.5714C35.4429 35.5714 35.6143 35.3571 35.6143 35.1429C35.4 30.4286 33.1286 26.9571 33.1286 26.9571C32.8715 26.4857 32.5286 26.0143 32.1429 25.5C32.1429 25.5 28.1572 19.4571 20.1857 18.4286C19.9715 18.3857 19.8429 18.2143 19.8429 18.0429C19.8429 17.8286 19.8429 17.6571 19.8429 17.5286C19.8429 17.4 20.0572 17.3143 20.1429 17.2714C25.9715 16.4571 29.6143 13.2 31.2 11.4C31.3286 11.2714 31.3286 11.0571 31.2429 10.9286C31.1143 10.7143 30.9857 10.4571 30.8572 10.2429C30.7286 9.98571 30.3857 9.98571 30.1715 10.2C28.6715 12.0429 25.4143 14.9571 19.9286 15.7286C19.9714 15.4286 20.7857 8.48571 26.8715 4.41428C27.4286 4.07142 27.9429 3.72857 28.4143 3.47142C28.4143 3.47142 30.5572 2.22857 33.3857 1.8C33.6429 1.75714 33.9 2.01428 33.8572 2.27142C33.6429 3.68571 33.2143 4.88571 32.8715 5.78571C32.8286 5.91429 32.8286 6.08571 32.9143 6.17143C33.0858 6.38571 33.2572 6.64286 33.3857 6.85714C33.5572 7.11428 33.9858 7.07142 34.1143 6.77142C35.3572 3.94285 35.5286 1.45714 35.5286 0.471425C35.5286 0.214282 35.3143 0.0428532 35.1 0.0428532C33.8572 0.128567 30.1715 0.514283 26.9143 2.52857C26.3572 2.87143 25.8 3.21428 25.4572 3.51428C19.7572 7.62857 18.6 13.9286 18.4286 15.5143C18.2572 15.6428 18.1714 15.7286 18.0429 15.8571H17.6572C17.4857 15.7286 17.4 15.6429 17.2286 15.4714C17.1 14.0571 16.2857 9 11.5714 4.67143C11.4429 4.54285 11.2714 4.54285 11.1 4.62857C10.8857 4.75714 10.6286 4.88571 10.4143 5.01428C10.1572 5.14286 10.1572 5.48571 10.3714 5.65714C15 9.72857 15.6429 15.4286 15.6857 15.6857C7.58572 14.5714 4.45715 8.74286 4.37144 8.65714C4.07144 8.18571 3.77143 7.71428 3.47143 7.15714C3.47143 7.15714 2.27143 5.14285 1.75715 2.18571C1.97143 1.97142 2.01429 1.92857 2.22858 1.71429C3.55715 1.92857 4.75715 2.31428 5.65715 2.65714C5.78573 2.7 5.95715 2.7 6.04287 2.57143C6.25715 2.4 6.47144 2.22857 6.68572 2.1C6.94287 1.92857 6.9 1.5 6.6 1.37143C5.14286 0.72857 2.95715 0.0857143 0.428572 0C0.171429 0 0 0.214286 0 0.428571C0.214286 5.14286 2.48572 8.61428 2.48572 8.61428C2.74287 9.08571 3.08572 9.51428 3.47143 10.0714C3.47143 10.0714 7.45715 16.1143 15.4286 17.1429C15.6429 17.1857 15.7715 17.3571 15.7715 17.5286C15.7715 17.7 15.7715 17.8714 15.7715 18C15.7715 18.1714 15.6 18.3 15.5143 18.3C9.68573 19.0714 6.04286 22.3714 4.45714 24.1714C4.37143 24.3 4.32858 24.4286 4.37144 24.6C4.45715 24.8571 4.62858 25.1143 4.75715 25.3714C4.88572 25.6286 5.22858 25.6286 5.40001 25.4143C6.90001 23.6143 10.1572 20.6143 15.6857 19.8428C15.6429 20.1428 14.8286 27.0857 8.74286 31.1571C8.52858 31.3286 8.27144 31.4571 8.05716 31.6286C7.80002 31.8 5.10001 33.3 2.22858 33.7714C1.97144 33.8143 1.71429 33.5571 1.75715 33.3C1.97143 31.8428 2.4 30.6 2.78572 29.7429C2.82857 29.6143 2.82857 29.4429 2.74286 29.3571C2.57143 29.1429 2.40001 28.8857 2.27144 28.6714C2.05715 28.4571 1.67143 28.5 1.54286 28.8ZM3.47143 28.4143C4.28572 29.4857 5.3143 30.4714 6.12859 31.2C6.25716 31.3286 6.47143 31.3286 6.6 31.2429C6.81429 31.1143 7.07144 30.9857 7.28572 30.8571C7.50001 30.7286 7.54287 30.3857 7.32858 30.2143C5.61429 28.7571 4.4143 26.9571 4.4143 26.9571C4.1143 26.5286 3.81429 26.0143 3.51429 25.4571C2.01429 22.5429 1.62858 19.8857 1.58572 18.0857C1.58572 17.3143 1.62857 16.5857 1.71429 15.9428C1.75714 15.8143 1.75715 15.7286 1.75715 15.7286C1.97143 14.1 2.35714 12.7714 2.74286 11.8286C2.78571 11.7 2.78572 11.5286 2.70001 11.4429C2.52858 11.2714 2.40001 11.0143 2.22858 10.8C2.05715 10.5429 1.62857 10.5857 1.5 10.8857C1.02857 12.0857 0.471429 13.7143 0.214286 15.7286C0.214286 15.7286 -0.814287 21.2143 2.57143 26.9143C2.82857 27.5143 3.17143 28.0286 3.47143 28.4143ZM32.1 7.19999C31.2857 6.12857 30.2572 5.14285 29.4429 4.41428C29.3143 4.28571 29.1429 4.28571 28.9715 4.37143C28.7572 4.5 28.5 4.62857 28.2857 4.75714C28.0715 4.88571 28.0286 5.22857 28.2429 5.4C29.9572 6.85714 31.1572 8.65714 31.1572 8.65714C31.4572 9.04285 31.7572 9.55714 32.0572 10.1571C33.5572 13.0714 33.9429 15.7286 33.9858 17.5286C33.9858 18.3 33.9429 19.0286 33.8572 19.6714C33.8143 19.8 33.8143 19.8857 33.8143 19.8857C33.6 21.5571 33.2143 22.8857 32.8286 23.8286C32.7857 23.9571 32.7858 24.1286 32.9143 24.2571C33.0858 24.4714 33.2572 24.6857 33.3857 24.9C33.5572 25.1571 33.9858 25.1143 34.1143 24.8143C34.5858 23.6143 35.1429 21.9429 35.4 19.9286C35.4 19.9286 36.4286 14.4429 33.0429 8.74285C32.7857 8.18571 32.4429 7.67142 32.1 7.19999ZM10.0714 3.55714C10.2429 3.47142 10.5 3.3 10.6714 3.21429C16.5 0.471428 21.5572 1.8 23.9572 2.78571C24.0857 2.82857 24.2572 2.82857 24.3429 2.74285C24.5572 2.57143 24.7715 2.4 25.0286 2.22857C25.2857 2.05714 25.2429 1.62857 24.9429 1.5C21.5143 0 17.9572 0 17.7429 0C17.4857 0 12.6857 -5.31333e-06 8.6143 2.48571C8.14287 2.78571 7.71429 3.08571 7.24286 3.42857C7.24286 3.42857 5.87144 4.45714 4.58572 5.78571C4.45715 5.91429 4.45715 6.08571 4.54286 6.25714C4.67144 6.51428 4.8 6.77142 4.92858 6.98571C5.05715 7.24285 5.40001 7.24286 5.57143 7.07143C6.34286 6.21428 7.4143 5.18571 8.65716 4.37143C9.12859 4.07143 9.60001 3.81428 10.0714 3.55714ZM28.2857 32.1857C28.2857 32.1857 29.6143 31.1571 30.9429 29.8286C31.0715 29.7 31.0715 29.5286 31.0286 29.3571C30.9 29.1 30.7715 28.8857 30.6429 28.6286C30.5143 28.3714 30.1715 28.3714 30 28.5857C29.2715 29.4 28.4572 30.2571 27.2572 31.0714C26.8715 31.3714 26.1429 31.8429 25.5 32.1857C19.4143 35.3143 14.1429 33.9 11.6572 32.9143C11.5286 32.8714 11.3572 32.8714 11.2714 32.9571C11.0572 33.1286 10.8 33.3 10.5857 33.4286C10.3286 33.6 10.3714 34.0286 10.6714 34.1571C14.1 35.6571 17.6572 35.6571 17.8715 35.6571C18.1286 35.6571 22.9286 35.6571 27 33.1714C27.3857 32.8286 27.8572 32.5286 28.2857 32.1857ZM17.7857 17.4C17.9572 17.5714 18.0429 17.6571 18.2143 17.8286C18.0429 18 17.9572 18.0857 17.7857 18.2143C17.5714 18.2143 17.3572 18.0429 17.3572 17.7857C17.5286 17.6571 17.6143 17.5714 17.7857 17.4Z",
+                        fill: "black"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 60,
+                        columnNumber: 346
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 60,
+                columnNumber: 32
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 60,
+            columnNumber: 10
+        }, this);
+        $[9] = t6;
+    } else {
+        t6 = $[9];
+    }
+    let t7;
+    if ($[10] !== t2) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "nav__left",
+            children: [
+                t2,
+                t6
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 67,
+            columnNumber: 10
+        }, this);
+        $[10] = t2;
+        $[11] = t7;
+    } else {
+        t7 = $[11];
+    }
+    let t8;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "brand-name",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 104 27",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M-2.65241e-06 26.5398V0.357961H6.32812V21.4006H17.2202V26.5398H-2.65241e-06ZM45.1882 13.4489C45.1882 16.3296 44.6342 18.7713 43.5263 20.7742C42.4183 22.777 40.9183 24.2983 39.0263 25.3381C37.1428 26.3778 35.0291 26.8977 32.6854 26.8977C30.3331 26.8977 28.2152 26.3736 26.3317 25.3253C24.4482 24.277 22.9524 22.7557 21.8445 20.7614C20.745 18.7585 20.1953 16.321 20.1953 13.4489C20.1953 10.5682 20.745 8.12643 21.8445 6.12359C22.9524 4.12075 24.4482 2.59944 26.3317 1.55967C28.2152 0.519892 30.3331 5.96046e-06 32.6854 5.96046e-06C35.0291 5.96046e-06 37.1428 0.519892 39.0263 1.55967C40.9183 2.59944 42.4183 4.12075 43.5263 6.12359C44.6342 8.12643 45.1882 10.5682 45.1882 13.4489ZM38.7195 13.4489C38.7195 11.7443 38.4766 10.304 37.9908 9.12785C37.5135 7.95171 36.8232 7.06108 35.9197 6.45597C35.0249 5.85086 33.9467 5.5483 32.6854 5.5483C31.4325 5.5483 30.3544 5.85086 29.451 6.45597C28.5476 7.06108 27.853 7.95171 27.3672 9.12785C26.8899 10.304 26.6513 11.7443 26.6513 13.4489C26.6513 15.1534 26.8899 16.5938 27.3672 17.7699C27.853 18.946 28.5476 19.8367 29.451 20.4418C30.3544 21.0469 31.4325 21.3494 32.6854 21.3494C33.9467 21.3494 35.0249 21.0469 35.9197 20.4418C36.8232 19.8367 37.5135 18.946 37.9908 17.7699C38.4766 16.5938 38.7195 15.1534 38.7195 13.4489ZM67.0646 8.91052C66.9197 8.37359 66.7067 7.90057 66.4254 7.49148C66.1442 7.07387 65.799 6.72018 65.3899 6.4304C64.9808 6.14063 64.5121 5.9233 63.9837 5.77842C63.4553 5.62501 62.8757 5.5483 62.245 5.5483C60.9751 5.5483 59.8757 5.85512 58.9467 6.46876C58.0263 7.08239 57.3146 7.97728 56.8118 9.15342C56.3089 10.321 56.0575 11.7401 56.0575 13.4105C56.0575 15.0895 56.3004 16.5213 56.7862 17.706C57.272 18.8906 57.9751 19.794 58.8956 20.4162C59.816 21.0384 60.9325 21.3494 62.245 21.3494C63.4041 21.3494 64.3842 21.1619 65.1854 20.7869C65.995 20.4034 66.6087 19.8622 67.0263 19.1634C67.4439 18.4645 67.6527 17.6421 67.6527 16.696L68.8288 16.8367H62.4624V12.2216H73.7507V15.6861C73.7507 18.0298 73.2521 20.0369 72.255 21.7074C71.2663 23.3778 69.9027 24.6605 68.1641 25.5554C66.4339 26.4503 64.4439 26.8977 62.1939 26.8977C59.6967 26.8977 57.5021 26.3565 55.6101 25.2742C53.718 24.1918 52.2436 22.6492 51.1868 20.6463C50.13 18.6349 49.6016 16.2486 49.6016 13.4872C49.6016 11.3395 49.9212 9.43467 50.5604 7.77273C51.1996 6.10228 52.0902 4.68751 53.2322 3.52842C54.3828 2.36932 55.7124 1.49148 57.2209 0.894892C58.7379 0.298301 60.37 5.96046e-06 62.1172 5.96046e-06C63.6342 5.96046e-06 65.0447 0.217336 66.3487 0.651995C67.6612 1.08665 68.8203 1.70029 69.826 2.4929C70.8402 3.28552 71.6626 4.22728 72.2933 5.31819C72.924 6.4091 73.316 7.60654 73.4695 8.91052H67.0646ZM103.192 13.4489C103.192 16.3296 102.638 18.7713 101.53 20.7742C100.422 22.777 98.9222 24.2983 97.0302 25.3381C95.1467 26.3778 93.033 26.8977 90.6893 26.8977C88.337 26.8977 86.2191 26.3736 84.3356 25.3253C82.4521 24.277 80.9563 22.7557 79.8484 20.7614C78.7489 18.7585 78.1992 16.321 78.1992 13.4489C78.1992 10.5682 78.7489 8.12643 79.8484 6.12359C80.9563 4.12075 82.4521 2.59944 84.3356 1.55967C86.2191 0.519892 88.337 5.96046e-06 90.6893 5.96046e-06C93.033 5.96046e-06 95.1467 0.519892 97.0302 1.55967C98.9222 2.59944 100.422 4.12075 101.53 6.12359C102.638 8.12643 103.192 10.5682 103.192 13.4489ZM96.7234 13.4489C96.7234 11.7443 96.4805 10.304 95.9947 9.12785C95.5174 7.95171 94.8271 7.06108 93.9236 6.45597C93.0288 5.85086 91.9506 5.5483 90.6893 5.5483C89.4364 5.5483 88.3583 5.85086 87.4549 6.45597C86.5515 7.06108 85.8569 7.95171 85.3711 9.12785C84.8938 10.304 84.6552 11.7443 84.6552 13.4489C84.6552 15.1534 84.8938 16.5938 85.3711 17.7699C85.8569 18.946 86.5515 19.8367 87.4549 20.4418C88.3583 21.0469 89.4364 21.3494 90.6893 21.3494C91.9506 21.3494 93.0288 21.0469 93.9236 20.4418C94.8271 19.8367 95.5174 18.946 95.9947 17.7699C96.4805 16.5938 96.7234 15.1534 96.7234 13.4489Z",
+                    fill: "black"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 75,
+                    columnNumber: 112
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 75,
+                columnNumber: 39
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 75,
+            columnNumber: 10
+        }, this);
+        $[12] = t8;
+    } else {
+        t8 = $[12];
+    }
+    const t9 = `navbar__menu ${isMenuOpen ? "hidden__menu" : ""}`;
+    let t10;
+    let t11;
+    let t12;
+    let t13;
+    let t14;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-style",
+            children: "SHOP"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 87,
+            columnNumber: 11
+        }, this);
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-style",
+            children: "SKILLS"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 88,
+            columnNumber: 11
+        }, this);
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-style",
+            children: "STORIES"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 89,
+            columnNumber: 11
+        }, this);
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-style",
+            children: "ABOUT"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 90,
+            columnNumber: 11
+        }, this);
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-style",
+            children: "CONTACT US"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 91,
+            columnNumber: 11
+        }, this);
+        $[13] = t10;
+        $[14] = t11;
+        $[15] = t12;
+        $[16] = t13;
+        $[17] = t14;
+    } else {
+        t10 = $[13];
+        t11 = $[14];
+        t12 = $[15];
+        t13 = $[16];
+        t14 = $[17];
+    }
+    let t15;
+    if ($[18] !== t9) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "nav__center",
+            children: [
+                t8,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: t9,
+                    children: [
+                        t10,
+                        t11,
+                        t12,
+                        t13,
+                        t14
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 106,
+                    columnNumber: 44
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 106,
+            columnNumber: 11
+        }, this);
+        $[18] = t9;
+        $[19] = t15;
+    } else {
+        t15 = $[19];
+    }
+    let t16;
+    if ($[20] === Symbol.for("react.memo_cache_sentinel")) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-action",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 24 24",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M11.5 20.9998C16.7467 20.9998 21 16.7465 21 11.4998C21 6.25311 16.7467 1.99982 11.5 1.99982C6.25327 1.99982 1.99998 6.25311 1.99998 11.4998C1.99998 16.7465 6.25327 20.9998 11.5 20.9998Z",
+                        stroke: "#292D32",
+                        strokeWidth: "1.40625",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 114,
+                        columnNumber: 118
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M22 21.9998L20 19.9998",
+                        stroke: "#292D32",
+                        strokeWidth: "1.40625",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 114,
+                        columnNumber: 400
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 114,
+                columnNumber: 46
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 114,
+            columnNumber: 11
+        }, this);
+        $[20] = t16;
+    } else {
+        t16 = $[20];
+    }
+    let t17;
+    if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-action",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 24 24",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M12.62 20.8116C12.28 20.9316 11.72 20.9316 11.38 20.8116C8.48 19.8216 2 15.6916 2 8.69156C2 5.60156 4.49 3.10156 7.56 3.10156C9.38 3.10156 10.99 3.98156 12 5.34156C13.01 3.98156 14.63 3.10156 16.44 3.10156C19.51 3.10156 22 5.60156 22 8.69156C22 15.6916 15.52 19.8216 12.62 20.8116Z",
+                    stroke: "#292D32",
+                    strokeWidth: "1.5",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 121,
+                    columnNumber: 118
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 121,
+                columnNumber: 46
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 121,
+            columnNumber: 11
+        }, this);
+        $[21] = t17;
+    } else {
+        t17 = $[21];
+    }
+    let t18;
+    if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-action",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 24 24",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M8.39612 6.5H15.5961C18.9961 6.5 19.3361 8.09 19.5661 10.03L20.4661 17.53C20.7561 19.99 19.9961 22 16.4961 22H7.50612C3.99612 22 3.23612 19.99 3.53612 17.53L4.43613 10.03C4.65613 8.09 4.99612 6.5 8.39612 6.5Z",
+                        stroke: "#292D32",
+                        strokeWidth: "1.5",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 128,
+                        columnNumber: 118
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M8 8V4.5C8 3 9 2 10.5 2H13.5C15 2 16 3 16 4.5V8",
+                        stroke: "#292D32",
+                        strokeWidth: "1.5",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 128,
+                        columnNumber: 419
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M20.41 17.0312H8",
+                        stroke: "#292D32",
+                        strokeWidth: "1.5",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 128,
+                        columnNumber: 559
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 128,
+                columnNumber: 46
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 128,
+            columnNumber: 11
+        }, this);
+        $[22] = t18;
+    } else {
+        t18 = $[22];
+    }
+    let t19;
+    if ($[23] === Symbol.for("react.memo_cache_sentinel")) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            className: "nav-action nav_user",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                viewBox: "0 0 24 24",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M12.1625 10.87C12.0625 10.86 11.9425 10.86 11.8325 10.87C9.4525 10.79 7.5625 8.84 7.5625 6.44C7.5625 3.99 9.5425 2 12.0025 2C14.4525 2 16.4425 3.99 16.4425 6.44C16.4325 8.84 14.5425 10.79 12.1625 10.87Z",
+                        stroke: "#292D32",
+                        strokeWidth: "1.5",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 135,
+                        columnNumber: 127
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M7.15875 14.56C4.73875 16.18 4.73875 18.82 7.15875 20.43C9.90875 22.27 14.4188 22.27 17.1688 20.43C19.5888 18.81 19.5888 16.17 17.1688 14.56C14.4288 12.73 9.91875 12.73 7.15875 14.56Z",
+                        stroke: "#292D32",
+                        strokeWidth: "1.5",
+                        strokeLinecap: "round",
+                        strokeLinejoin: "round"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 135,
+                        columnNumber: 422
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 135,
+                columnNumber: 55
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 135,
+            columnNumber: 11
+        }, this);
+        $[23] = t19;
+    } else {
+        t19 = $[23];
+    }
+    let t20;
+    if ($[24] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "nav__right ",
+            children: [
+                t16,
+                t17,
+                t18,
+                t19,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "language-selector",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                        id: "language",
+                        name: "language",
+                        className: "language-selector__select",
+                        defaultValue: "en",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                value: "en",
+                                children: "Eng"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Headers.jsx",
+                                lineNumber: 142,
+                                columnNumber: 189
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                value: "hi",
+                                children: "Hindi"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Headers.jsx",
+                                lineNumber: 142,
+                                columnNumber: 220
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                value: "fr",
+                                children: "French"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Headers.jsx",
+                                lineNumber: 142,
+                                columnNumber: 253
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                value: "es",
+                                children: "Spanish"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Headers.jsx",
+                                lineNumber: 142,
+                                columnNumber: 287
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/layout/Headers.jsx",
+                        lineNumber: 142,
+                        columnNumber: 95
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 142,
+                    columnNumber: 60
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 142,
+            columnNumber: 11
+        }, this);
+        $[24] = t20;
+    } else {
+        t20 = $[24];
+    }
+    let t21;
+    if ($[25] !== t15 || $[26] !== t7) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+            className: "navbar ",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "nav-1 ",
+                children: [
+                    t7,
+                    t15,
+                    t20
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Headers.jsx",
+                lineNumber: 149,
+                columnNumber: 36
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 149,
+            columnNumber: 11
+        }, this);
+        $[25] = t15;
+        $[26] = t7;
+        $[27] = t21;
+    } else {
+        t21 = $[27];
+    }
+    let t22;
+    if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "navbar__tabs hide_ui ",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    href: "#",
+                    className: "home_tab",
+                    children: "HOME"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 158,
+                    columnNumber: 50
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    children: "|"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 158,
+                    columnNumber: 91
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    href: "#",
+                    className: "shop_tab",
+                    children: "SHOP"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Headers.jsx",
+                    lineNumber: 158,
+                    columnNumber: 105
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 158,
+            columnNumber: 11
+        }, this);
+        $[28] = t22;
+    } else {
+        t22 = $[28];
+    }
+    let t23;
+    if ($[29] !== t21) {
+        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+            className: "header gap-1",
+            children: [
+                t21,
+                t22
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Headers.jsx",
+            lineNumber: 165,
+            columnNumber: 11
+        }, this);
+        $[29] = t21;
+        $[30] = t23;
+    } else {
+        t23 = $[30];
+    }
+    return t23;
+}
+_s(Headers, "vK10R+uCyHfZ4DZVnxbYkMWJB8g=");
+_c = Headers;
+const __TURBOPACK__default__export__ = Headers;
+var _c;
+__turbopack_context__.k.register(_c, "Headers");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/components/layout/Footer.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.4_@babel+core@7.2_c1c1e5dcafadb6528839ff3407e67c44/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.4_@babel+core@7.2_c1c1e5dcafadb6528839ff3407e67c44/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.4_@babel+core@7.2_c1c1e5dcafadb6528839ff3407e67c44/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+const ArrowIcon = ()=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
+    if ($[0] !== "1cf5e9d8ff4f4ee0a14dd18be6d48def2505dedefd2326df0e56f506244a977c") {
+        for(let $i = 0; $i < 2; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "1cf5e9d8ff4f4ee0a14dd18be6d48def2505dedefd2326df0e56f506244a977c";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 20 20",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M3.4001 7.4248L8.83343 12.8581C9.4751 13.4998 10.5251 13.4998 11.1668 12.8581L16.6001 7.4248",
+                stroke: "white",
+                strokeWidth: "1.25",
+                strokeMiterlimit: "10",
+                strokeLinecap: "round",
+                strokeLinejoin: "round"
+            }, void 0, false, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 16,
+                columnNumber: 105
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 16,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    return t0;
+};
+_c = ArrowIcon;
+const footerLinks = {
+    brand: {
+        title: "mettà muse",
+        hiddenClass: "muse-hidden",
+        links: [
+            {
+                label: "About Us",
+                href: "#"
+            },
+            {
+                label: "Stories",
+                href: "#"
+            },
+            {
+                label: "Artisans",
+                href: "#"
+            },
+            {
+                label: "Boutiques",
+                href: "#"
+            },
+            {
+                label: "Contact Us",
+                href: "#"
+            },
+            {
+                label: "EU Compliances Docs",
+                href: "#"
+            }
+        ]
+    },
+    quick: {
+        title: "QUICK LINKS",
+        hiddenClass: "links-hidden",
+        links: [
+            {
+                label: "Orders & Shipping",
+                href: "#"
+            },
+            {
+                label: "Join/Login as a Seller",
+                href: "#"
+            },
+            {
+                label: "Payment & Pricing",
+                href: "#"
+            },
+            {
+                label: "Return & Refunds",
+                href: "#"
+            },
+            {
+                label: "FAQs",
+                href: "#"
+            },
+            {
+                label: "Privacy Policy",
+                href: "#"
+            },
+            {
+                label: "Terms & Conditions",
+                href: "#"
+            }
+        ]
+    }
+};
+function FooterSection(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(23);
+    if ($[0] !== "1cf5e9d8ff4f4ee0a14dd18be6d48def2505dedefd2326df0e56f506244a977c") {
+        for(let $i = 0; $i < 23; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "1cf5e9d8ff4f4ee0a14dd18be6d48def2505dedefd2326df0e56f506244a977c";
+    }
+    const { title, links, hiddenClass, wrapperClass } = t0;
+    const [isHidden, setIsHidden] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
+    let t1;
+    if ($[1] !== isHidden) {
+        t1 = ({
+            "FooterSection[<div>.onClick]": ()=>setIsHidden(!isHidden)
+        })["FooterSection[<div>.onClick]"];
+        $[1] = isHidden;
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] !== title) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "footer__heading",
+            children: title
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 101,
+            columnNumber: 10
+        }, this);
+        $[3] = title;
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    const t3 = `arrow-down-btn ${isHidden ? "" : "rotated"}`;
+    let t4;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {}, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 110,
+            columnNumber: 10
+        }, this);
+        $[5] = t4;
+    } else {
+        t4 = $[5];
+    }
+    let t5;
+    if ($[6] !== t3) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t3,
+            children: t4
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 117,
+            columnNumber: 10
+        }, this);
+        $[6] = t3;
+        $[7] = t5;
+    } else {
+        t5 = $[7];
+    }
+    let t6;
+    if ($[8] !== t1 || $[9] !== t2 || $[10] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__heading-arrow",
+            onClick: t1,
+            children: [
+                t2,
+                t5
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 125,
+            columnNumber: 10
+        }, this);
+        $[8] = t1;
+        $[9] = t2;
+        $[10] = t5;
+        $[11] = t6;
+    } else {
+        t6 = $[11];
+    }
+    const t7 = `footer__list ${isHidden ? hiddenClass : ""}`;
+    let t8;
+    if ($[12] !== links) {
+        t8 = links.map(_FooterSectionLinksMap);
+        $[12] = links;
+        $[13] = t8;
+    } else {
+        t8 = $[13];
+    }
+    let t9;
+    if ($[14] !== t7 || $[15] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+            className: t7,
+            children: t8
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 144,
+            columnNumber: 10
+        }, this);
+        $[14] = t7;
+        $[15] = t8;
+        $[16] = t9;
+    } else {
+        t9 = $[16];
+    }
+    let t10;
+    if ($[17] !== t6 || $[18] !== t9) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__column",
+            children: [
+                t6,
+                t9
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 153,
+            columnNumber: 11
+        }, this);
+        $[17] = t6;
+        $[18] = t9;
+        $[19] = t10;
+    } else {
+        t10 = $[19];
+    }
+    let t11;
+    if ($[20] !== t10 || $[21] !== wrapperClass) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: wrapperClass,
+            children: t10
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 162,
+            columnNumber: 11
+        }, this);
+        $[20] = t10;
+        $[21] = wrapperClass;
+        $[22] = t11;
+    } else {
+        t11 = $[22];
+    }
+    return t11;
+}
+_s(FooterSection, "vPyJcySbA8yI72eb5p4OlFda+70=");
+_c1 = FooterSection;
+function _FooterSectionLinksMap(link) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: link.href,
+            children: link.label
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 172,
+            columnNumber: 31
+        }, this)
+    }, link.label, false, {
+        fileName: "[project]/src/components/layout/Footer.jsx",
+        lineNumber: 172,
+        columnNumber: 10
+    }, this);
+}
+function Footer() {
+    _s1();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(46);
+    if ($[0] !== "1cf5e9d8ff4f4ee0a14dd18be6d48def2505dedefd2326df0e56f506244a977c") {
+        for(let $i = 0; $i < 46; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "1cf5e9d8ff4f4ee0a14dd18be6d48def2505dedefd2326df0e56f506244a977c";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = new Date().getFullYear();
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const year = t0;
+    const [isSocialHidden, setIsSocialHidden] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
+    let t1;
+    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__newsletter_text",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                    children: "BE THE FIRST TO KNOW"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 193,
+                    columnNumber: 51
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "para-mobile",
+                    children: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. this is simply dummy text."
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 193,
+                    columnNumber: 80
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "para-desktop",
+                    children: "Sign up for updates from mettà muse."
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 193,
+                    columnNumber: 212
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 193,
+            columnNumber: 10
+        }, this);
+        $[2] = t1;
+    } else {
+        t1 = $[2];
+    }
+    let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__newsletter",
+            children: [
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                    className: "newsletter-form",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                            type: "email",
+                            className: "newsletter-form__input",
+                            placeholder: "Enter your e-mail...",
+                            "aria-label": "Email address"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 200,
+                            columnNumber: 84
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            type: "submit",
+                            className: "newsletter-form__button",
+                            children: "SUBSCRIBE"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 200,
+                            columnNumber: 203
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 200,
+                    columnNumber: 50
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 200,
+            columnNumber: 10
+        }, this);
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    let t3;
+    let t4;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "footer__title mobile",
+            children: "Call us"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 208,
+            columnNumber: 10
+        }, this);
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "footer__title desktop",
+            children: "Contact us"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 209,
+            columnNumber: 10
+        }, this);
+        $[4] = t3;
+        $[5] = t4;
+    } else {
+        t3 = $[4];
+        t4 = $[5];
+    }
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            children: "+44 221 353 600"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 218,
+            columnNumber: 10
+        }, this);
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    let t6;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__contact",
+            children: [
+                t3,
+                t4,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "footer__text",
+                    children: [
+                        t5,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                            width: "6",
+                            height: "6",
+                            viewBox: "0 0 6 6",
+                            fill: "none",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                d: "M3 0L4.48492 1.51508L6 3L4.48492 4.48492L3 6L1.51508 4.48492L0 3L1.51508 1.51508L3 0Z",
+                                fill: "white"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Footer.jsx",
+                                lineNumber: 225,
+                                columnNumber: 174
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 225,
+                            columnNumber: 83
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            children: "customercare@mettamus.com"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 225,
+                            columnNumber: 291
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 225,
+                    columnNumber: 51
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 225,
+            columnNumber: 10
+        }, this);
+        $[7] = t6;
+    } else {
+        t6 = $[7];
+    }
+    let t7;
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "footer__title",
+            children: "CURRENCY"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 232,
+            columnNumber: 10
+        }, this);
+        $[8] = t7;
+    } else {
+        t7 = $[8];
+    }
+    let t8;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+            clipPath: "url(#clip0_88313_280)",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    fillRule: "evenodd",
+                    clipRule: "evenodd",
+                    d: "M0 0H45.6005V1.84617H0V0ZM0 3.69234H45.6005V5.53852H0V3.69234ZM0 7.38469H45.6005V9.23086H0V7.38469ZM0 11.077H45.6005V12.9232H0V11.077ZM0 14.7694H45.6005V16.6155H0V14.7694ZM0 18.4617H45.6005V20.3079H0V18.4617ZM0 22.1541H45.6005V24.0002H0V22.1541Z",
+                    fill: "#BD3D44"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 239,
+                    columnNumber: 46
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    fillRule: "evenodd",
+                    clipRule: "evenodd",
+                    d: "M0 1.8457H45.6005V3.69187H0V1.8457ZM0 5.53805H45.6005V7.38422H0V5.53805ZM0 9.23039H45.6005V11.0766H0V9.23039ZM0 12.9227H45.6005V14.7689H0V12.9227ZM0 16.6151H45.6005V18.4613H0V16.6151ZM0 20.3074H45.6005V22.1536H0V20.3074Z",
+                    fill: "white"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 239,
+                    columnNumber: 357
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    fillRule: "evenodd",
+                    clipRule: "evenodd",
+                    d: "M0 0H18.2402V12.9232H0V0Z",
+                    fill: "#192F5D"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 239,
+                    columnNumber: 641
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    fillRule: "evenodd",
+                    clipRule: "evenodd",
+                    d: "M1.51319 0.553711L1.69778 1.0706H2.21472L1.79008 1.38448L1.95625 1.88295L1.51319 1.56907L1.10702 1.88295L1.27319 1.38448L0.830078 1.0706H1.384L1.51319 0.553711ZM4.55936 0.553711L4.72553 1.0706H5.26089L4.81783 1.38448L5.00242 1.88295L4.55936 1.56907L4.1163 1.88295L4.30089 1.38448L3.85783 1.0706H4.39319L4.55936 0.553711ZM7.60553 0.553711L7.7717 1.0706H8.30706L7.864 1.38448L8.04864 1.88295L7.60553 1.56907L7.16247 1.88295L7.34706 1.38448L6.904 1.0706H7.43941L7.60553 0.553711ZM10.6333 0.553711L10.8179 1.0706H11.3348L10.9102 1.38448L11.0763 1.88295L10.6333 1.56907L10.2086 1.88295L10.3748 1.38448L9.9317 1.0706H10.4856L10.6333 0.553711ZM13.6795 0.553711L13.8456 1.0706H14.381L13.9379 1.38448L14.1225 1.88295L13.661 1.56907L13.2363 1.88295L13.4025 1.38448L12.9595 1.0706H13.4948L13.6795 0.553711ZM16.7256 0.553711L16.8918 1.0706H17.4272L16.9841 1.38448L17.1687 1.88295L16.7256 1.56907L16.2826 1.88295L16.4672 1.38448L16.0241 1.0706H16.5595L16.7256 0.553711ZM3.04548 1.84601L3.21166 2.36295H3.74706L3.30395 2.67677L3.48859 3.17524L3.04548 2.86141L2.60242 3.17524L2.78702 2.67677L2.34395 2.36295H2.87936L3.04548 1.84601ZM6.07323 1.84601L6.25783 2.36295H6.77477L6.35012 2.67677L6.5163 3.17524L6.07323 2.86141L5.64859 3.17524L5.81477 2.67677L5.37166 2.36295H5.92553L6.07323 1.84601ZM9.11941 1.84601L9.28558 2.36295H9.82094L9.37787 2.67677L9.56247 3.17524L9.11941 2.86141L8.6763 3.17524L8.86094 2.67677L8.41787 2.36295H8.95323L9.11941 1.84601ZM12.1656 1.84601L12.3318 2.36295H12.8671L12.424 2.67677L12.6087 3.17524L12.1656 2.86141L11.7225 3.17524L11.9071 2.67677L11.464 2.36295H11.9995L12.1656 1.84601ZM15.1933 1.84601L15.3779 2.36295H15.8764L15.4518 2.67677L15.6179 3.17524L15.1749 2.86141L14.7502 3.17524L14.9164 2.67677L14.4733 2.36295H15.0272L15.1933 1.84601ZM1.53161 3.13835L1.67931 3.65524H2.23319L1.79008 3.96912L1.95625 4.46759L1.51319 4.15371L1.10702 4.46759L1.27319 3.96912L0.830078 3.65524H1.384L1.53161 3.13835ZM4.55936 3.13835L4.72553 3.65524H5.26089L4.8363 3.96912L5.00242 4.46759L4.55936 4.15371L4.13472 4.46759L4.30089 3.96912L3.85783 3.65524H4.39319L4.55936 3.13835ZM7.60553 3.13835L7.7717 3.65524H8.30706L7.864 3.96912L8.04864 4.46759L7.60553 4.15371L7.16247 4.46759L7.34706 3.96912L6.904 3.65524H7.43941L7.60553 3.13835ZM10.6333 3.13835L10.8179 3.65524H11.3348L10.9102 3.96912L11.0763 4.46759L10.6333 4.15371L10.2086 4.46759L10.3748 3.96912L9.9317 3.65524H10.4856L10.6333 3.13835ZM13.6795 3.13835L13.8456 3.65524H14.381L13.9564 3.96912L14.1225 4.46759L13.6795 4.15371L13.2548 4.46759L13.421 3.96912L12.9779 3.65524H13.5133L13.6795 3.13835ZM16.7256 3.13835L16.8918 3.65524H17.4272L16.9841 3.96912L17.1687 4.46759L16.7256 4.15371L16.2826 4.46759L16.4672 3.96912L16.0241 3.65524H16.5595L16.7256 3.13835ZM3.04548 4.4306L3.21166 4.94754H3.74706L3.30395 5.26137L3.48859 5.75984L3.04548 5.44601L2.60242 5.75984L2.78702 5.26137L2.34395 4.94754H2.87936L3.04548 4.4306ZM6.07323 4.4306L6.25783 4.94754H6.77477L6.35012 5.26137L6.5163 5.75984L6.07323 5.44601L5.64859 5.75984L5.81477 5.26137L5.37166 4.94754H5.92553L6.07323 4.4306ZM9.11941 4.4306L9.28558 4.94754H9.82094L9.39634 5.26137L9.56247 5.75984L9.11941 5.44601L8.69477 5.75984L8.86094 5.26137L8.41787 4.94754H8.95323L9.11941 4.4306ZM12.1656 4.4306L12.3318 4.94754H12.8671L12.424 5.26137L12.6087 5.75988L12.1656 5.44605L11.7225 5.75988L11.9071 5.26141L11.464 4.94759H11.9995L12.1656 4.4306ZM15.1933 4.4306L15.3779 4.94754H15.8764L15.4518 5.26137L15.6179 5.75984L15.1749 5.44601L14.7502 5.75984L14.9164 5.26137L14.4733 4.94754H15.0272L15.1933 4.4306ZM1.53161 5.72295L1.67931 6.23984H2.23319L1.79008 6.55371L1.95625 7.05218L1.51319 6.73831L1.10702 7.05218L1.27319 6.55371L0.830078 6.23984H1.384L1.53161 5.72295ZM4.55936 5.72295L4.72553 6.23984H5.26089L4.8363 6.55371L5.00242 7.05218L4.55936 6.73831L4.13472 7.05218L4.30089 6.55371L3.85783 6.23984H4.39319L4.55936 5.72295ZM7.60553 5.72295L7.7717 6.23984H8.30706L7.864 6.55371L8.04864 7.05218L7.60553 6.73831L7.16247 7.05218L7.34706 6.55371L6.904 6.23984H7.43941L7.60553 5.72295ZM10.6333 5.72295L10.8179 6.23984H11.3348L10.9102 6.55371L11.0763 7.05218L10.6333 6.73831L10.2086 7.05218L10.3748 6.55371L9.9317 6.23984H10.4856L10.6333 5.72295ZM13.6795 5.72295L13.8456 6.23984H14.381L13.9564 6.55371L14.1225 7.05218L13.6795 6.73831L13.2548 7.05218L13.421 6.55371L12.9779 6.23984H13.5133L13.6795 5.72295ZM16.7256 5.72295L16.8918 6.23984H17.4272L16.9841 6.55371L17.1687 7.05218L16.7256 6.73831L16.2826 7.05218L16.4672 6.55371L16.0241 6.23984H16.5595L16.7256 5.72295ZM3.04548 7.01524L3.21166 7.53218H3.74706L3.30395 7.84601L3.48859 8.34448L3.04548 8.03065L2.60242 8.34448L2.78702 7.84601L2.34395 7.53218H2.87936L3.04548 7.01524ZM6.07323 7.01524L6.25783 7.53218H6.77477L6.35012 7.84601L6.5163 8.34448L6.07323 8.03065L5.64859 8.34448L5.81477 7.84601L5.37166 7.53218H5.92553L6.07323 7.01524ZM9.11941 7.01524L9.28558 7.53218H9.82094L9.39634 7.84601L9.56247 8.34448L9.11941 8.03065L8.69477 8.34448L8.86094 7.84601L8.41787 7.53218H8.95323L9.11941 7.01524ZM12.1656 7.01524L12.3318 7.53218H12.8671L12.424 7.84601L12.6087 8.34452L12.1656 8.0307L11.7225 8.34452L11.9071 7.84606L11.464 7.53223H11.9995L12.1656 7.01524ZM15.1933 7.01524L15.3779 7.53218H15.8764L15.4518 7.84601L15.6179 8.34448L15.1749 8.03065L14.7502 8.34448L14.9164 7.84601L14.4733 7.53218H15.0272L15.1933 7.01524ZM1.53161 8.30759L1.67931 8.82448H2.23319L1.79008 9.13835L1.95625 9.63682L1.51319 9.32295L1.10702 9.63682L1.27319 9.13835L0.830078 8.82448H1.384L1.53161 8.30759ZM4.55936 8.30759L4.72553 8.82448H5.26089L4.8363 9.13835L5.00242 9.63682L4.55936 9.32295L4.13472 9.63682L4.30089 9.13835L3.85783 8.82448H4.39319L4.55936 8.30759ZM7.60553 8.30759L7.7717 8.82448H8.30706L7.864 9.13835L8.04864 9.63682L7.60553 9.32295L7.16247 9.63682L7.34706 9.13835L6.904 8.82448H7.43941L7.60553 8.30759ZM10.6333 8.30759L10.8179 8.82448H11.3348L10.9102 9.13835L11.0763 9.63682L10.6333 9.32295L10.2086 9.63682L10.3748 9.13835L9.9317 8.82448H10.4856L10.6333 8.30759ZM13.6795 8.30759L13.8456 8.82448H14.381L13.9564 9.13835L14.1225 9.63682L13.6795 9.32295L13.2548 9.63682L13.421 9.13835L12.9779 8.82448H13.5133L13.6795 8.30759ZM16.7256 8.30759L16.8918 8.82448H17.4272L16.9841 9.13835L17.1687 9.63682L16.7256 9.32295L16.2826 9.63682L16.4672 9.13835L16.0241 8.82448H16.5595L16.7256 8.30759ZM3.04548 9.59993L3.21166 10.1169H3.74706L3.30395 10.4307L3.48859 10.9292L3.04548 10.6153L2.60242 10.9292L2.78702 10.4307L2.34395 10.1169H2.87936L3.04548 9.59993ZM6.07323 9.59993L6.25783 10.1169H6.77477L6.35012 10.4307L6.5163 10.9292L6.07323 10.6153L5.64859 10.9292L5.81477 10.4307L5.37166 10.1169H5.92553L6.07323 9.59993ZM9.11941 9.59993L9.28558 10.1169H9.82094L9.39634 10.4307L9.56247 10.9292L9.11941 10.6153L8.69477 10.9292L8.86094 10.4307L8.41787 10.1169H8.95323L9.11941 9.59993ZM12.1656 9.59993L12.3318 10.1169H12.8671L12.424 10.4307L12.6087 10.9292L12.1656 10.6154L11.7225 10.9292L11.9071 10.4307L11.464 10.1169H11.9995L12.1656 9.59993ZM15.1933 9.59993L15.3779 10.1169H15.8764L15.4518 10.4307L15.6179 10.9292L15.1749 10.6153L14.7502 10.9292L14.9164 10.4307L14.4733 10.1169H15.0272L15.1933 9.59993ZM1.53161 10.8923L1.67931 11.4092H2.23319L1.79008 11.723L1.95625 12.2215L1.51319 11.9076L1.10702 12.2215L1.27319 11.723L0.830078 11.4092H1.384L1.53161 10.8923ZM4.55936 10.8923L4.72553 11.4092H5.26089L4.8363 11.723L5.00242 12.2215L4.55936 11.9076L4.13472 12.2215L4.30089 11.723L3.85783 11.4092H4.39319L4.55936 10.8923ZM7.60553 10.8923L7.7717 11.4092H8.30706L7.864 11.723L8.04864 12.2215L7.60553 11.9076L7.16247 12.2215L7.34706 11.723L6.904 11.4092H7.43941L7.60553 10.8923ZM10.6333 10.8923L10.8179 11.4092H11.3348L10.9102 11.723L11.0763 12.2215L10.6333 11.9076L10.2086 12.2215L10.3748 11.723L9.9317 11.4092H10.4856L10.6333 10.8923ZM13.6795 10.8923L13.8456 11.4092H14.381L13.9564 11.723L14.1225 12.2215L13.6795 11.9076L13.2548 12.2215L13.421 11.723L12.9779 11.4092H13.5133L13.6795 10.8923ZM16.7256 10.8923L16.8918 11.4092H17.4272L16.9841 11.723L17.1687 12.2215L16.7256 11.9076L16.2826 12.2215L16.4672 11.723L16.0241 11.4092H16.5595L16.7256 10.8923Z",
+                    fill: "white"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 239,
+                    columnNumber: 732
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 239,
+            columnNumber: 10
+        }, this);
+        $[9] = t8;
+    } else {
+        t8 = $[9];
+    }
+    let t9;
+    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "24",
+            height: "24",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                t8,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
+                        id: "clip0_88313_280",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                            width: "24",
+                            height: "24",
+                            rx: "12",
+                            fill: "white"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 246,
+                            columnNumber: 146
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Footer.jsx",
+                        lineNumber: 246,
+                        columnNumber: 115
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 246,
+                    columnNumber: 109
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 246,
+            columnNumber: 10
+        }, this);
+        $[10] = t9;
+    } else {
+        t9 = $[10];
+    }
+    let t10;
+    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__top",
+            children: [
+                t2,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "footer-contact__currency",
+                    children: [
+                        t6,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "footer__currency",
+                            children: [
+                                t7,
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "currency",
+                                    children: [
+                                        t9,
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            width: "6",
+                                            height: "6",
+                                            viewBox: "0 0 6 6",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "M3 0L4.48492 1.51508L6 3L4.48492 4.48492L3 6L1.51508 4.48492L0 3L1.51508 1.51508L3 0Z",
+                                                fill: "white"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.jsx",
+                                                lineNumber: 253,
+                                                columnNumber: 249
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/layout/Footer.jsx",
+                                            lineNumber: 253,
+                                            columnNumber: 158
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "currency__code",
+                                            children: "USD"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/layout/Footer.jsx",
+                                            lineNumber: 253,
+                                            columnNumber: 366
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/layout/Footer.jsx",
+                                    lineNumber: 253,
+                                    columnNumber: 128
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "footer__note",
+                                    children: "Transactions will be completed in Euros and a currency reference is available on hover."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/layout/Footer.jsx",
+                                    lineNumber: 253,
+                                    columnNumber: 415
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 253,
+                            columnNumber: 90
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 253,
+                    columnNumber: 44
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 253,
+            columnNumber: 11
+        }, this);
+        $[11] = t10;
+    } else {
+        t10 = $[11];
+    }
+    let t11;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterSection, {
+            title: footerLinks.brand.title,
+            links: footerLinks.brand.links,
+            hiddenClass: footerLinks.brand?.hiddenClass,
+            wrapperClass: "brand-links"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 260,
+            columnNumber: 11
+        }, this);
+        $[12] = t11;
+    } else {
+        t11 = $[12];
+    }
+    let t12;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterSection, {
+            title: footerLinks.quick.title,
+            links: footerLinks.quick.links,
+            hiddenClass: footerLinks.quick?.hiddenClass,
+            wrapperClass: "quick-links"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 267,
+            columnNumber: 11
+        }, this);
+        $[13] = t12;
+    } else {
+        t12 = $[13];
+    }
+    let t13;
+    if ($[14] !== isSocialHidden) {
+        t13 = ({
+            "Footer[<div>.onClick]": ()=>setIsSocialHidden(!isSocialHidden)
+        })["Footer[<div>.onClick]"];
+        $[14] = isSocialHidden;
+        $[15] = t13;
+    } else {
+        t13 = $[15];
+    }
+    let t14;
+    if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "footer__heading",
+            children: "FOLLOW US"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 284,
+            columnNumber: 11
+        }, this);
+        $[16] = t14;
+    } else {
+        t14 = $[16];
+    }
+    const t15 = `arrow-down-btn ${isSocialHidden ? "" : "rotated"}`;
+    let t16;
+    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ArrowIcon, {}, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 292,
+            columnNumber: 11
+        }, this);
+        $[17] = t16;
+    } else {
+        t16 = $[17];
+    }
+    let t17;
+    if ($[18] !== t15) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t15,
+            children: t16
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 299,
+            columnNumber: 11
+        }, this);
+        $[18] = t15;
+        $[19] = t17;
+    } else {
+        t17 = $[19];
+    }
+    let t18;
+    if ($[20] !== t13 || $[21] !== t17) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__heading-arrow",
+            onClick: t13,
+            children: [
+                t14,
+                t17
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 307,
+            columnNumber: 11
+        }, this);
+        $[20] = t13;
+        $[21] = t17;
+        $[22] = t18;
+    } else {
+        t18 = $[22];
+    }
+    const t19 = `footer__social ${!isSocialHidden ? "social_payment-hidden" : ""}`;
+    let t20;
+    if ($[23] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+            x: "0.599998",
+            y: "0.600098",
+            width: "32",
+            height: "32",
+            rx: "16",
+            fill: "black",
+            stroke: "white",
+            strokeWidth: "1.2"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 317,
+            columnNumber: 11
+        }, this);
+        $[23] = t20;
+    } else {
+        t20 = $[23];
+    }
+    let t21;
+    if ($[24] === Symbol.for("react.memo_cache_sentinel")) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+            clipPath: "url(#clip0_88313_233)",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                fillRule: "evenodd",
+                clipRule: "evenodd",
+                d: "M13.3018 8.6481C12.4503 8.68695 11.8686 8.82181 11.3589 9.02067C10.8332 9.2241 10.3875 9.49838 9.94177 9.94296C9.49835 10.3875 9.22406 10.8344 9.02063 11.3601C8.82177 11.8687 8.68692 12.4504 8.64806 13.3018C8.6092 14.1544 8.60006 14.4275 8.60006 16.6001C8.60006 18.7727 8.6092 19.0458 8.64806 19.8984C8.68692 20.7498 8.82177 21.3315 9.02063 21.8412C9.22406 22.367 9.49835 22.8127 9.94292 23.2584C10.3875 23.7018 10.8343 23.9761 11.3601 24.1807C11.8686 24.3784 12.4503 24.5121 13.3018 24.5521C14.1555 24.591 14.4275 24.6001 16.6001 24.6001C18.7726 24.6001 19.0458 24.591 19.8983 24.5521C20.7498 24.5132 21.3315 24.3784 21.8412 24.1807C22.3669 23.975 22.8126 23.7018 23.2583 23.2572C23.7018 22.8127 23.9761 22.3658 24.1806 21.8401C24.3783 21.3315 24.5121 20.7498 24.5521 19.8984C24.5909 19.0447 24.6001 18.7727 24.6001 16.6001C24.6001 14.4275 24.5909 14.1544 24.5521 13.3018C24.5132 12.4504 24.3783 11.8687 24.1806 11.359C23.9796 10.825 23.6644 10.3414 23.2572 9.94181C22.8126 9.49838 22.3658 9.2241 21.8401 9.02067C21.3315 8.82181 20.7498 8.68695 19.8983 8.6481C19.0458 8.60924 18.7726 8.6001 16.6001 8.6001C14.4275 8.6001 14.1543 8.60924 13.3018 8.6481ZM12.4915 16.6001C12.4915 17.6898 12.9244 18.7348 13.6949 19.5053C14.4654 20.2758 15.5104 20.7087 16.6001 20.7087C17.6897 20.7087 18.7348 20.2758 19.5053 19.5053C20.2758 18.7348 20.7086 17.6898 20.7086 16.6001C20.7086 15.5104 20.2758 14.4654 19.5053 13.6949C18.7348 12.9244 17.6897 12.4915 16.6001 12.4915C15.5104 12.4915 14.4654 12.9244 13.6949 13.6949C12.9244 14.4654 12.4915 15.5104 12.4915 16.6001ZM16.6001 19.2664C15.8929 19.2664 15.2147 18.9855 14.7147 18.4854C14.2147 17.9854 13.9338 17.3072 13.9338 16.6001C13.9338 15.893 14.2147 15.2148 14.7147 14.7147C15.2147 14.2147 15.8929 13.9338 16.6001 13.9338C17.3072 13.9338 17.9854 14.2147 18.4854 14.7147C18.9854 15.2148 19.2663 15.893 19.2663 16.6001C19.2663 17.3072 18.9854 17.9854 18.4854 18.4854C17.9854 18.9855 17.3072 19.2664 16.6001 19.2664ZM22.2001 12.0401C22.2001 12.1662 22.1752 12.291 22.127 12.4075C22.0787 12.5239 22.008 12.6298 21.9189 12.7189C21.8297 12.8081 21.7239 12.8788 21.6074 12.927C21.491 12.9753 21.3661 13.0001 21.2401 13.0001C21.114 13.0001 20.9892 12.9753 20.8727 12.927C20.7562 12.8788 20.6504 12.8081 20.5612 12.7189C20.4721 12.6298 20.4014 12.5239 20.3531 12.4075C20.3049 12.291 20.2801 12.1662 20.2801 12.0401C20.2801 11.7855 20.3812 11.5413 20.5612 11.3613C20.7413 11.1812 20.9855 11.0801 21.2401 11.0801C21.4947 11.0801 21.7388 11.1812 21.9189 11.3613C22.0989 11.5413 22.2001 11.7855 22.2001 12.0401Z",
+                fill: "white"
+            }, void 0, false, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 324,
+                columnNumber: 47
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 324,
+            columnNumber: 11
+        }, this);
+        $[24] = t21;
+    } else {
+        t21 = $[24];
+    }
+    let t22;
+    if ($[25] === Symbol.for("react.memo_cache_sentinel")) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            "aria-label": "Instagram",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "34",
+                height: "34",
+                viewBox: "0 0 34 34",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    t20,
+                    t21,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
+                            id: "clip0_88313_233",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                width: "32",
+                                height: "32",
+                                fill: "white",
+                                transform: "translate(0.599998 0.600098)"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Footer.jsx",
+                                lineNumber: 331,
+                                columnNumber: 188
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 331,
+                            columnNumber: 157
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Footer.jsx",
+                        lineNumber: 331,
+                        columnNumber: 151
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 331,
+                columnNumber: 46
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 331,
+            columnNumber: 11
+        }, this);
+        $[25] = t22;
+    } else {
+        t22 = $[25];
+    }
+    let t23;
+    if ($[26] === Symbol.for("react.memo_cache_sentinel")) {
+        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+            x: "0.599998",
+            y: "0.600098",
+            width: "32",
+            height: "32",
+            rx: "16",
+            fill: "black",
+            stroke: "white",
+            strokeWidth: "1.2"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 338,
+            columnNumber: 11
+        }, this);
+        $[26] = t23;
+    } else {
+        t23 = $[26];
+    }
+    let t24;
+    if ($[27] === Symbol.for("react.memo_cache_sentinel")) {
+        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+            clipPath: "url(#clip0_88313_233)",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                fillRule: "evenodd",
+                clipRule: "evenodd",
+                d: "M13.3018 8.6481C12.4503 8.68695 11.8686 8.82181 11.3589 9.02067C10.8332 9.2241 10.3875 9.49838 9.94177 9.94296C9.49835 10.3875 9.22406 10.8344 9.02063 11.3601C8.82177 11.8687 8.68692 12.4504 8.64806 13.3018C8.6092 14.1544 8.60006 14.4275 8.60006 16.6001C8.60006 18.7727 8.6092 19.0458 8.64806 19.8984C8.68692 20.7498 8.82177 21.3315 9.02063 21.8412C9.22406 22.367 9.49835 22.8127 9.94292 23.2584C10.3875 23.7018 10.8343 23.9761 11.3601 24.1807C11.8686 24.3784 12.4503 24.5121 13.3018 24.5521C14.1555 24.591 14.4275 24.6001 16.6001 24.6001C18.7726 24.6001 19.0458 24.591 19.8983 24.5521C20.7498 24.5132 21.3315 24.3784 21.8412 24.1807C22.3669 23.975 22.8126 23.7018 23.2583 23.2572C23.7018 22.8127 23.9761 22.3658 24.1806 21.8401C24.3783 21.3315 24.5121 20.7498 24.5521 19.8984C24.5909 19.0447 24.6001 18.7727 24.6001 16.6001C24.6001 14.4275 24.5909 14.1544 24.5521 13.3018C24.5132 12.4504 24.3783 11.8687 24.1806 11.359C23.9796 10.825 23.6644 10.3414 23.2572 9.94181C22.8126 9.49838 22.3658 9.2241 21.8401 9.02067C21.3315 8.82181 20.7498 8.68695 19.8983 8.6481C19.0458 8.60924 18.7726 8.6001 16.6001 8.6001C14.4275 8.6001 14.1543 8.60924 13.3018 8.6481ZM12.4915 16.6001C12.4915 17.6898 12.9244 18.7348 13.6949 19.5053C14.4654 20.2758 15.5104 20.7087 16.6001 20.7087C17.6897 20.7087 18.7348 20.2758 19.5053 19.5053C20.2758 18.7348 20.7086 17.6898 20.7086 16.6001C20.7086 15.5104 20.2758 14.4654 19.5053 13.6949C18.7348 12.9244 17.6897 12.4915 16.6001 12.4915C15.5104 12.4915 14.4654 12.9244 13.6949 13.6949C12.9244 14.4654 12.4915 15.5104 12.4915 16.6001ZM16.6001 19.2664C15.8929 19.2664 15.2147 18.9855 14.7147 18.4854C14.2147 17.9854 13.9338 17.3072 13.9338 16.6001C13.9338 15.893 14.2147 15.2148 14.7147 14.7147C15.2147 14.2147 15.8929 13.9338 16.6001 13.9338C17.3072 13.9338 17.9854 14.2147 18.4854 14.7147C18.9854 15.2148 19.2663 15.893 19.2663 16.6001C19.2663 17.3072 18.9854 17.9854 18.4854 18.4854C17.9854 18.9855 17.3072 19.2664 16.6001 19.2664ZM22.2001 12.0401C22.2001 12.1662 22.1752 12.291 22.127 12.4075C22.0787 12.5239 22.008 12.6298 21.9189 12.7189C21.8297 12.8081 21.7239 12.8788 21.6074 12.927C21.491 12.9753 21.3661 13.0001 21.2401 13.0001C21.114 13.0001 20.9892 12.9753 20.8727 12.927C20.7562 12.8788 20.6504 12.8081 20.5612 12.7189C20.4721 12.6298 20.4014 12.5239 20.3531 12.4075C20.3049 12.291 20.2801 12.1662 20.2801 12.0401C20.2801 11.7855 20.3812 11.5413 20.5612 11.3613C20.7413 11.1812 20.9855 11.0801 21.2401 11.0801C21.4947 11.0801 21.7388 11.1812 21.9189 11.3613C22.0989 11.5413 22.2001 11.7855 22.2001 12.0401Z",
+                fill: "white"
+            }, void 0, false, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 345,
+                columnNumber: 47
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 345,
+            columnNumber: 11
+        }, this);
+        $[27] = t24;
+    } else {
+        t24 = $[27];
+    }
+    let t25;
+    if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
+        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#",
+            "aria-label": "LinkedIn",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "34",
+                height: "34",
+                viewBox: "0 0 34 34",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    t23,
+                    t24,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
+                            id: "clip0_88313_233",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                width: "32",
+                                height: "32",
+                                fill: "white",
+                                transform: "translate(0.599998 0.600098)"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Footer.jsx",
+                                lineNumber: 352,
+                                columnNumber: 187
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 352,
+                            columnNumber: 156
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/layout/Footer.jsx",
+                        lineNumber: 352,
+                        columnNumber: 150
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 352,
+                columnNumber: 45
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 352,
+            columnNumber: 11
+        }, this);
+        $[28] = t25;
+    } else {
+        t25 = $[28];
+    }
+    let t26;
+    if ($[29] !== t19) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__column",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: t19,
+                children: [
+                    t22,
+                    t25
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 359,
+                columnNumber: 43
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 359,
+            columnNumber: 11
+        }, this);
+        $[29] = t19;
+        $[30] = t26;
+    } else {
+        t26 = $[30];
+    }
+    let t27;
+    if ($[31] !== t18 || $[32] !== t26) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "social-payments",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "footer__column",
+                children: [
+                    t18,
+                    t26
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/layout/Footer.jsx",
+                lineNumber: 367,
+                columnNumber: 44
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 367,
+            columnNumber: 11
+        }, this);
+        $[31] = t18;
+        $[32] = t26;
+        $[33] = t27;
+    } else {
+        t27 = $[33];
+    }
+    let t28;
+    if ($[34] === Symbol.for("react.memo_cache_sentinel")) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "footer__heading footer__heading--spaced",
+            children: "mettà muse ACCEPTS"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 376,
+            columnNumber: 11
+        }, this);
+        $[34] = t28;
+    } else {
+        t28 = $[34];
+    }
+    let t29;
+    if ($[35] === Symbol.for("react.memo_cache_sentinel")) {
+        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "56",
+            height: "35",
+            viewBox: "0 0 56 35",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "0.5",
+                    y: "0.5",
+                    width: "55",
+                    height: "34",
+                    rx: "4.5",
+                    fill: "white",
+                    stroke: "#FFF2F5"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 383,
+                    columnNumber: 106
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M26.6248 17.6346V22.2179H25.1667V10.9028H29.021C29.4829 10.895 29.9417 10.9786 30.3711 11.1487C30.8005 11.3188 31.1921 11.5721 31.5233 11.894C31.837 12.1867 32.0899 12.5385 32.2677 12.929C32.4454 13.3196 32.5444 13.7413 32.559 14.1702C32.5736 14.599 32.5036 15.0266 32.3529 15.4283C32.2022 15.8301 31.9738 16.1982 31.6808 16.5117L31.5233 16.6778C30.8501 17.3181 29.9506 17.6661 29.021 17.6432L26.6248 17.6346ZM26.6248 12.2893V16.2825H29.0569C29.5968 16.2997 30.1182 16.0892 30.4963 15.7039C30.7668 15.422 30.9484 15.0667 31.0186 14.6824C31.0887 14.2981 31.0444 13.9016 30.891 13.5423C30.7376 13.183 30.4819 12.8767 30.1558 12.6616C29.8297 12.4464 29.4475 12.3319 29.0569 12.3323L26.6248 12.2893ZM35.9118 14.22C36.8428 14.1771 37.7537 14.4893 38.4584 15.098C39.0958 15.7139 39.4352 16.5733 39.3894 17.4599V22.2351H38.0015V21.138H37.9313C37.6824 21.5495 37.3305 21.8889 36.9102 22.1228C36.49 22.3566 36.016 22.4768 35.5351 22.4714C34.7501 22.4969 33.9845 22.2241 33.3924 21.708C33.1119 21.4792 32.887 21.1895 32.7349 20.861C32.5828 20.5325 32.5074 20.1736 32.5144 19.8117C32.4979 19.4459 32.5689 19.0814 32.7216 18.7486C32.8743 18.4157 33.1043 18.1242 33.3924 17.8981C34.0991 17.3899 34.9545 17.1305 35.8244 17.1605C36.5649 17.1319 37.2997 17.2937 37.9585 17.6346V17.3367C37.9634 17.0904 37.9121 16.8462 37.8086 16.6226C37.7052 16.399 37.5522 16.2019 37.3613 16.0462C36.9779 15.6977 36.4757 15.5091 35.9576 15.5191C35.5814 15.5156 35.2105 15.608 34.8799 15.7877C34.5494 15.9674 34.2701 16.2284 34.0684 16.5461L32.7865 15.7382C33.1346 15.2395 33.6045 14.8382 34.1516 14.5724C34.6986 14.3067 35.3046 14.1854 35.9118 14.22ZM34.0684 19.8461C34.065 20.0316 34.1072 20.2151 34.1914 20.3804C34.2756 20.5458 34.3991 20.6879 34.5511 20.7942C34.8705 21.0463 35.2673 21.1795 35.6755 21.1709C36.2899 21.1695 36.8786 20.9274 37.3169 20.4949C37.7537 20.0852 38.0015 19.5138 38.0015 18.9151C37.4501 18.5231 36.7801 18.3338 36.1052 18.3794C35.5811 18.3587 35.0641 18.5063 34.6299 18.8005C34.4579 18.9155 34.3168 19.071 34.2189 19.2533C34.121 19.4356 34.0694 19.6391 34.0684 19.8461ZM47.3687 14.475L42.5132 25.6325H41.0122L42.847 21.7252L39.6615 14.475H41.2414L43.5502 20.0394L45.7975 14.475H47.3687Z",
+                    fill: "#5F6368"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 383,
+                    columnNumber: 192
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M20.742 16.6458C20.742 16.2047 20.7076 15.7635 20.6375 15.3281H14.4929V17.8303H18.0035C17.932 18.228 17.781 18.6071 17.5595 18.9451C17.338 19.283 17.0505 19.5727 16.7144 19.7969V21.4211H18.8113C19.4489 20.8042 19.9501 20.0605 20.2826 19.238C20.6152 18.4155 20.7717 17.5325 20.742 16.6458Z",
+                    fill: "#4285F4"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 383,
+                    columnNumber: 2401
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M14.5016 22.9989C16.0862 23.0424 17.6278 22.4806 18.8128 21.4277L16.7131 19.7949C16.2086 20.1184 15.6369 20.3226 15.0416 20.3919C14.4464 20.4612 13.8431 20.3939 13.2777 20.1951C12.7124 19.9962 12.1998 19.6711 11.779 19.2443C11.3582 18.8176 11.0402 18.3005 10.8493 17.7324H8.698V19.4082C9.23632 20.4868 10.0645 21.394 11.0896 22.0283C12.1147 22.6625 13.2962 22.9986 14.5016 22.9989Z",
+                    fill: "#34A853"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 383,
+                    columnNumber: 2717
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M10.849 17.7438C10.5765 16.9379 10.5765 16.0647 10.849 15.2588V13.583H8.69765C8.23901 14.4874 8 15.4872 8 16.5013C8 17.5154 8.23901 18.5152 8.69765 19.4196L10.849 17.7438Z",
+                    fill: "#FBBC04"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 383,
+                    columnNumber: 3126
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M14.5016 12.5733C15.4283 12.5564 16.3242 12.9065 16.9938 13.5473L18.8558 11.6953C17.6686 10.581 16.0938 9.9732 14.4658 10.0009C13.2675 10.0069 12.0943 10.3447 11.0762 10.9767C10.0581 11.6087 9.23498 12.5104 8.698 13.5816L10.8493 15.2588C11.1008 14.4855 11.5885 13.8105 12.2436 13.3288C12.8988 12.8471 13.6885 12.5828 14.5016 12.5733Z",
+                    fill: "#EA4335"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 383,
+                    columnNumber: 3325
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 383,
+            columnNumber: 11
+        }, this);
+        $[35] = t29;
+    } else {
+        t29 = $[35];
+    }
+    let t30;
+    if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "56",
+            height: "35",
+            viewBox: "0 0 56 35",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "0.5",
+                    y: "0.5",
+                    width: "55",
+                    height: "34",
+                    rx: "4.5",
+                    fill: "white",
+                    stroke: "#FFF2F5"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 390,
+                    columnNumber: 106
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M22.026 27.052C27.5633 27.052 32.0521 22.5632 32.0521 17.026C32.0521 11.4888 27.5633 7 22.026 7C16.4888 7 12 11.4888 12 17.026C12 22.5632 16.4888 27.052 22.026 27.052Z",
+                    fill: "#EB001B"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 390,
+                    columnNumber: 192
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M33.4845 27.052C39.0218 27.052 43.5106 22.5632 43.5106 17.026C43.5106 11.4888 39.0218 7 33.4845 7C27.9473 7 23.4585 11.4888 23.4585 17.026C23.4585 22.5632 27.9473 27.052 33.4845 27.052Z",
+                    fill: "#F79E1B"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 390,
+                    columnNumber: 387
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M32.0522 17.0244C32.0522 13.5869 30.3335 10.5791 27.7554 8.86035C25.1772 10.7223 23.4585 13.7301 23.4585 17.0244C23.4585 20.3187 25.1772 23.4697 27.7554 25.1884C30.3335 23.4697 32.0522 20.4619 32.0522 17.0244Z",
+                    fill: "#FF5F00"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 390,
+                    columnNumber: 600
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 390,
+            columnNumber: 11
+        }, this);
+        $[36] = t30;
+    } else {
+        t30 = $[36];
+    }
+    let t31;
+    if ($[37] === Symbol.for("react.memo_cache_sentinel")) {
+        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "56",
+            height: "35",
+            viewBox: "0 0 56 35",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "0.5",
+                    y: "0.5",
+                    width: "55",
+                    height: "34",
+                    rx: "4.5",
+                    fill: "white",
+                    stroke: "#FFF2F5"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 397,
+                    columnNumber: 106
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M34.4048 12.8529C34.6958 11.3824 34.4048 10.3529 33.5317 9.47059C32.6587 8.44118 31.0582 8 29.0212 8H23.0556C22.619 8 22.328 8.29412 22.1825 8.73529L20 23.5882C20 23.8824 20.1455 24.1765 20.4365 24.1765H24.3651L24.9471 19.1765L27.5661 15.9412L34.4048 12.8529Z",
+                    fill: "#003087"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 397,
+                    columnNumber: 192
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M34.4049 12.8516L34.1139 13.1457C33.3864 17.2633 30.9128 18.7339 27.4208 18.7339H25.8202C25.3837 18.7339 25.0927 19.028 24.9472 19.4692L24.0742 25.2045L23.7832 26.6751C23.7832 26.9692 23.9287 27.2633 24.2197 27.2633H27.2753C27.7118 27.2633 28.0028 26.9692 28.0028 26.6751V26.528L28.5848 22.9986V22.8516C28.5848 22.5574 29.0213 22.2633 29.3123 22.2633H29.7488C32.8044 22.2633 35.1324 21.0869 35.7144 17.5574C36.0054 16.0869 35.8599 14.9104 35.1324 14.028C34.9869 13.2927 34.6959 12.9986 34.4049 12.8516Z",
+                    fill: "#3086C8"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 397,
+                    columnNumber: 479
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M33.5314 12.5589C33.3859 12.4118 33.2404 12.4118 33.0949 12.4118C32.9494 12.4118 32.8039 12.4118 32.6584 12.2647C32.2219 12.1177 31.6399 12.1177 31.0579 12.1177H26.6928C26.5473 12.1177 26.4018 12.1177 26.4018 12.2647C26.1108 12.4118 25.9653 12.5589 25.9653 12.853L24.9468 19.3236V19.4706C24.9468 19.0294 25.3833 18.7353 25.8198 18.7353H27.7113C31.3489 18.7353 33.6769 17.2647 34.4045 13.1471V12.853C34.2589 12.7059 33.9679 12.5589 33.6769 12.5589H33.5314Z",
+                    fill: "#012169"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 397,
+                    columnNumber: 1009
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 397,
+            columnNumber: 11
+        }, this);
+        $[37] = t31;
+    } else {
+        t31 = $[37];
+    }
+    let t32;
+    if ($[38] === Symbol.for("react.memo_cache_sentinel")) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "56",
+            height: "35",
+            viewBox: "0 0 56 35",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "0.5",
+                    y: "0.5",
+                    width: "55",
+                    height: "34",
+                    rx: "4.5",
+                    fill: "#006FCF",
+                    stroke: "#FFF2F5"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 404,
+                    columnNumber: 106
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M14.1199 15.2484L15.2285 17.9354H13.0199L14.1199 15.2484ZM37.144 15.3601H32.8801V16.5447H37.0753V18.3193H32.8887V19.6398H37.1526V20.6983L40.1275 17.4828L37.1526 14.1312L37.144 15.3601ZM17.0017 12.0086H22.7237L23.9941 14.7801L25.1715 12H40.0243L41.5684 13.7044L43.1654 12H49.9874L44.9471 17.5172L49.9358 23H43.0121L41.4681 21.2955L39.8568 23H15.6367L14.9292 21.2955H13.3107L12.6017 23H7L11.7065 12H16.6193L17.0017 12.0086ZM29.4096 13.5526H26.2027L24.0543 18.6172L21.7268 13.5526H18.5443V20.4419L15.5938 13.5526H12.7392L9.32747 21.4474H11.5547L12.2622 19.7429H15.9805L16.688 21.4474H20.5839V15.8113L23.0918 21.456H24.7962L27.2884 15.8285V21.4574H29.3767L29.4111 13.5512L29.4096 13.5526ZM42.7872 17.5172L46.4124 13.5526H43.8027L41.5096 16.0247L39.2924 13.5526H30.8505V21.456H39.1721L41.4839 18.9666L43.701 21.456H46.3866L42.7872 17.5172Z",
+                    fill: "white"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 404,
+                    columnNumber: 194
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 404,
+            columnNumber: 11
+        }, this);
+        $[38] = t32;
+    } else {
+        t32 = $[38];
+    }
+    let t33;
+    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
+        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "56",
+            height: "35",
+            viewBox: "0 0 56 35",
+            fill: "none",
+            xmlns: "http://www.w3.org/2000/svg",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "0.5",
+                    y: "0.5",
+                    width: "55",
+                    height: "34",
+                    rx: "4.5",
+                    fill: "white",
+                    stroke: "#FFF2F5"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 411,
+                    columnNumber: 106
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M15.307 11.1151C15.7624 10.5458 16.0713 9.78115 15.9898 9C15.3235 9.03309 14.5106 9.43956 14.0395 10.0095C13.6169 10.4974 13.2428 11.2938 13.3401 12.0422C14.0882 12.1071 14.8356 11.6685 15.307 11.1151Z",
+                    fill: "black"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 411,
+                    columnNumber: 192
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M15.9815 12.1887C14.8948 12.1238 13.9715 12.805 13.4528 12.805C12.9338 12.805 12.1393 12.2211 11.28 12.237C10.1618 12.2532 9.12436 12.8858 8.55666 13.8915C7.38947 15.9027 8.24848 18.8872 9.38388 20.5254C9.93503 21.3364 10.5994 22.2285 11.4746 22.1964C12.3019 22.1639 12.6259 21.6611 13.6309 21.6611C14.6356 21.6611 14.9275 22.1964 15.8031 22.1802C16.7108 22.1639 17.2785 21.3692 17.8296 20.5582C18.4622 19.6336 18.7207 18.7415 18.737 18.6929C18.7207 18.6767 16.9865 18.0113 16.9703 16.0163C16.9541 14.3456 18.3321 13.5508 18.397 13.5018C17.6188 12.3509 16.4029 12.2211 15.9812 12.1887",
+                    fill: "black"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 411,
+                    columnNumber: 419
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M26.8119 9.92993C29.1729 9.92993 30.8173 11.5574 30.8173 13.9268C30.8173 16.3047 29.1391 17.9406 26.7529 17.9406H24.1389V22.0981H22.2502V9.92993H26.8119ZM24.1389 16.3553H26.3058C27.9505 16.3553 28.8861 15.47 28.8861 13.9353C28.8861 12.4009 27.9502 11.5237 26.3143 11.5237H24.1389V16.3553Z",
+                    fill: "black"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 411,
+                    columnNumber: 1029
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M31.2862 19.5761C31.2862 18.0161 32.4751 17.1224 34.6674 16.9874L37.02 16.844V16.1693C37.02 15.1831 36.3708 14.6433 35.2156 14.6433C34.2626 14.6433 33.5709 15.1322 33.4282 15.8825H31.7245C31.7754 14.3059 33.2592 13.1592 35.2663 13.1592C37.4248 13.1592 38.833 14.2891 38.833 16.0431V22.0973H37.0878V20.6385H37.0456C36.548 21.5913 35.4515 22.1898 34.2626 22.1898C32.5089 22.1898 31.2862 21.1446 31.2862 19.5761ZM37.02 18.792V18.1089L34.9204 18.2438C33.7396 18.3197 33.1246 18.758 33.1246 19.5252C33.1246 20.2674 33.7653 20.7482 34.7686 20.7482C36.05 20.7482 37.02 19.93 37.02 18.792Z",
+                    fill: "black"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 411,
+                    columnNumber: 1343
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M40.4375 25.352V23.8935C40.5556 23.91 40.842 23.9269 40.9939 23.9269C41.8285 23.9269 42.3009 23.5733 42.5876 22.6621L42.7563 22.1226L39.5603 13.2688H41.5333L43.7597 20.4529H43.8019L46.0279 13.2688H47.9506L44.6365 22.5693C43.8774 24.7029 43.009 25.4029 41.171 25.4029C41.0276 25.4029 40.5637 25.3861 40.4375 25.352Z",
+                    fill: "black"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 411,
+                    columnNumber: 1950
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 411,
+            columnNumber: 11
+        }, this);
+        $[39] = t33;
+    } else {
+        t33 = $[39];
+    }
+    let t34;
+    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
+        t34 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "payments",
+            children: [
+                t28,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "footer__payments",
+                    children: [
+                        t29,
+                        t30,
+                        t31,
+                        t32,
+                        t33,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                            width: "56",
+                            height: "35",
+                            viewBox: "0 0 56 35",
+                            fill: "none",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                    x: "0.5",
+                                    y: "0.5",
+                                    width: "55",
+                                    height: "34",
+                                    rx: "4.5",
+                                    fill: "#5A31F4",
+                                    stroke: "#FFF2F5"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/layout/Footer.jsx",
+                                    lineNumber: 418,
+                                    columnNumber: 196
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                    d: "M31.7339 13.7454C31.7339 16.1344 30.0481 17.8389 27.6934 17.8389H25.4748C25.4382 17.8394 25.4025 17.8505 25.372 17.8708C25.3415 17.8912 25.3175 17.9198 25.3029 17.9534C25.2935 17.9757 25.2887 17.9995 25.2886 18.0236V21.1632C25.2886 21.1876 25.2838 21.2117 25.2744 21.2342C25.265 21.2568 25.2513 21.2772 25.234 21.2944C25.2167 21.3115 25.1961 21.3251 25.1735 21.3343C25.151 21.3435 25.1268 21.3482 25.1024 21.348H23.5498C23.5004 21.348 23.453 21.3284 23.4181 21.2934C23.3832 21.2585 23.3636 21.2112 23.3636 21.1618V9.83954C23.363 9.80265 23.3737 9.76645 23.3941 9.73575C23.4146 9.70506 23.4439 9.68131 23.4782 9.66766C23.5009 9.65817 23.5252 9.6533 23.5498 9.65334H27.7034C30.0481 9.65334 31.7339 11.3563 31.7339 13.7454ZM29.7974 13.7454C29.7974 12.3733 28.855 11.3707 27.5774 11.3707H25.4748C25.4503 11.3707 25.4261 11.3755 25.4035 11.3848C25.3809 11.3942 25.3604 11.4079 25.3431 11.4252C25.3258 11.4425 25.3121 11.463 25.3028 11.4856C25.2934 11.5082 25.2886 11.5324 25.2886 11.5568V15.9253C25.2883 15.9498 25.293 15.9741 25.3024 15.9968C25.3117 16.0194 25.3255 16.0399 25.343 16.0571C25.3603 16.0744 25.3808 16.0882 25.4034 16.0975C25.4261 16.1069 25.4503 16.1116 25.4748 16.1115H27.5774C28.855 16.1187 29.7974 15.1161 29.7974 13.7454ZM32.1951 19.1752C32.1787 18.8082 32.2551 18.4431 32.417 18.1134C32.579 17.7837 32.8214 17.5002 33.1218 17.2889C33.7277 16.8363 34.6744 16.6014 36.0652 16.5527L37.5447 16.5011V16.0671C37.5447 15.1977 36.9575 14.8311 36.015 14.8311C35.0726 14.8311 34.4753 15.1619 34.3392 15.7048C34.3276 15.7429 34.3038 15.7762 34.2715 15.7994C34.2391 15.8227 34.2 15.8348 34.1602 15.8337H32.6964C32.6561 15.8342 32.6167 15.8216 32.5842 15.7979C32.5517 15.7741 32.5277 15.7404 32.5159 15.7019C32.5082 15.6764 32.5062 15.6495 32.5102 15.6231C32.7279 14.3369 33.805 13.3601 36.0823 13.3601C38.5058 13.3601 39.3809 14.4816 39.3809 16.62V21.1632C39.3807 21.1878 39.3757 21.2121 39.3661 21.2347C39.3564 21.2573 39.3424 21.2778 39.3249 21.295C39.3073 21.3121 39.2865 21.3257 39.2636 21.3348C39.2408 21.3439 39.2164 21.3483 39.1918 21.348H37.7166C37.6672 21.348 37.6198 21.3284 37.5849 21.2934C37.55 21.2585 37.5304 21.2112 37.5304 21.1618V20.8238C37.5309 20.7957 37.5227 20.7682 37.5071 20.7449C37.4915 20.7216 37.4691 20.7036 37.443 20.6934C37.4172 20.6832 37.3889 20.6808 37.3617 20.6864C37.3345 20.692 37.3095 20.7054 37.2898 20.7249C36.8458 21.2033 36.1325 21.5485 34.9881 21.5485C33.3051 21.5485 32.1951 20.6791 32.1951 19.1752ZM37.5447 18.1912V17.8389L35.6269 17.9391C34.6171 17.9907 34.0299 18.406 34.0299 19.1079C34.0299 19.7438 34.5684 20.0961 35.5109 20.0961C36.7899 20.0961 37.5447 19.4087 37.5447 18.1912ZM40.8619 24.7797V23.4635C40.8623 23.4359 40.8687 23.4087 40.8809 23.3839C40.893 23.3592 40.9105 23.3374 40.9321 23.3202C40.9535 23.3029 40.9784 23.2905 41.0051 23.2838C41.0319 23.2771 41.0597 23.2763 41.0868 23.2816C41.3131 23.3231 41.5422 23.3446 41.7728 23.3446C42.1678 23.3662 42.5586 23.2542 42.8821 23.0266C43.2056 22.7989 43.443 22.469 43.556 22.0899L43.652 21.7877C43.6663 21.7469 43.6663 21.7024 43.652 21.6616L40.5797 13.8256C40.5619 13.7826 40.5609 13.7345 40.5768 13.6907C40.5927 13.647 40.6244 13.6108 40.6657 13.5893C40.693 13.5748 40.7235 13.5675 40.7545 13.5678H42.2441C42.2823 13.5679 42.3196 13.5796 42.351 13.6013C42.3825 13.623 42.4066 13.6538 42.4202 13.6895L44.5056 19.2167C44.5185 19.2538 44.5428 19.286 44.5749 19.3086C44.607 19.3312 44.6454 19.3431 44.6847 19.3428C44.7239 19.3427 44.7621 19.3306 44.7941 19.308C44.8262 19.2855 44.8505 19.2536 44.8637 19.2167L46.6756 13.7053C46.6878 13.6673 46.712 13.6342 46.7445 13.611C46.777 13.5878 46.8161 13.5757 46.856 13.5764H48.3972C48.4434 13.5766 48.488 13.5936 48.5228 13.6241C48.5575 13.6547 48.58 13.6967 48.5862 13.7425C48.5897 13.7731 48.5858 13.804 48.5748 13.8328L45.2877 22.5353C44.5314 24.5592 43.2352 25.0748 41.8072 25.0748C41.5362 25.0823 41.2656 25.0504 41.0037 24.9802C40.9598 24.9695 40.9212 24.9433 40.8949 24.9065C40.8686 24.8697 40.8579 24.8248 40.8619 24.7797ZM13.3834 9.00021C11.429 8.98561 9.54258 9.71652 8.10825 11.0441C8.04722 11.0996 8.00912 11.1759 8.00144 11.258C7.99375 11.3402 8.01704 11.4222 8.06672 11.4881L8.95187 12.6898C8.98055 12.7303 9.01781 12.764 9.06099 12.7885C9.10416 12.813 9.15221 12.8277 9.20171 12.8315C9.2512 12.8353 9.30093 12.8282 9.34736 12.8107C9.3938 12.7931 9.43579 12.7655 9.47036 12.7299C9.98588 12.218 10.5981 11.8138 11.2714 11.5408C11.9447 11.2679 12.6655 11.1316 13.392 11.1401C16.4284 11.1401 18.014 13.4088 18.014 15.6518C18.014 18.0866 16.3482 19.8025 13.9534 19.8355C12.1029 19.8355 10.7079 18.618 10.7079 17.0081C10.7094 16.601 10.802 16.1995 10.9786 15.8327C11.1553 15.466 11.4117 15.1433 11.7291 14.8883C11.7967 14.8329 11.8396 14.753 11.8484 14.6661C11.8573 14.5791 11.8314 14.4922 11.7764 14.4243L10.8454 13.257C10.8173 13.2211 10.7822 13.1913 10.7422 13.1693C10.7023 13.1473 10.6583 13.1336 10.613 13.1291C10.5676 13.1245 10.5218 13.1292 10.4783 13.1428C10.4348 13.1564 10.3945 13.1787 10.3598 13.2083C9.78962 13.6657 9.32868 14.2445 9.0106 14.9027C8.69365 15.5593 8.52867 16.279 8.52791 17.0081C8.52791 19.7796 10.8984 21.9524 13.9348 21.9696H13.9778C17.5829 21.9237 20.1896 19.2711 20.1896 15.646C20.1896 12.4277 17.802 9.00021 13.3834 9.00021Z",
+                                    fill: "white"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/layout/Footer.jsx",
+                                    lineNumber: 418,
+                                    columnNumber: 284
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/layout/Footer.jsx",
+                            lineNumber: 418,
+                            columnNumber: 101
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 418,
+                    columnNumber: 42
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 418,
+            columnNumber: 11
+        }, this);
+        $[40] = t34;
+    } else {
+        t34 = $[40];
+    }
+    let t35;
+    if ($[41] !== t27) {
+        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__bottom",
+            children: [
+                t11,
+                t12,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "social_with_payments",
+                    children: [
+                        t27,
+                        t34
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/layout/Footer.jsx",
+                    lineNumber: 425,
+                    columnNumber: 53
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 425,
+            columnNumber: 11
+        }, this);
+        $[41] = t27;
+        $[42] = t35;
+    } else {
+        t35 = $[42];
+    }
+    let t36;
+    if ($[43] === Symbol.for("react.memo_cache_sentinel")) {
+        t36 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "footer__copyright",
+            children: [
+                "Copyright © ",
+                year,
+                " mettà muse. All rights reserved."
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 433,
+            columnNumber: 11
+        }, this);
+        $[43] = t36;
+    } else {
+        t36 = $[43];
+    }
+    let t37;
+    if ($[44] !== t35) {
+        t37 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$4_$40$babel$2b$core$40$7$2e$2_c1c1e5dcafadb6528839ff3407e67c44$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+            className: "footer",
+            children: [
+                t10,
+                t35,
+                t36
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Footer.jsx",
+            lineNumber: 440,
+            columnNumber: 11
+        }, this);
+        $[44] = t35;
+        $[45] = t37;
+    } else {
+        t37 = $[45];
+    }
+    return t37;
+}
+_s1(Footer, "TIouqRfavEKrO/QikHJ/QsbCXIQ=");
+_c2 = Footer;
+const __TURBOPACK__default__export__ = Footer;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "ArrowIcon");
+__turbopack_context__.k.register(_c1, "FooterSection");
+__turbopack_context__.k.register(_c2, "Footer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=src_components_layout_0kz3qfd._.js.map

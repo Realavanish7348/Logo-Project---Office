@@ -1,11 +1,84 @@
+"use client";
 import "@/components/ui/Footer.css";
+import { useState } from "react";
+
+const ArrowIcon = () => (
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M3.4001 7.4248L8.83343 12.8581C9.4751 13.4998 10.5251 13.4998 11.1668 12.8581L16.6001 7.4248"
+      stroke="white"
+      strokeWidth="1.25"
+      strokeMiterlimit="10"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+const footerLinks = {
+  brand: {
+    title: "mettà muse",
+    hiddenClass: "muse-hidden",
+    links: [
+      { label: "About Us", href: "#" },
+      { label: "Stories", href: "#" },
+      { label: "Artisans", href: "#" },
+      { label: "Boutiques", href: "#" },
+      { label: "Contact Us", href: "#" },
+      { label: "EU Compliances Docs", href: "#" },
+    ],
+  },
+  quick: {
+    title: "QUICK LINKS",
+    hiddenClass: "links-hidden",
+    links: [
+      { label: "Orders & Shipping", href: "#" },
+      { label: "Join/Login as a Seller", href: "#" },
+      { label: "Payment & Pricing", href: "#" },
+      { label: "Return & Refunds", href: "#" },
+      { label: "FAQs", href: "#" },
+      { label: "Privacy Policy", href: "#" },
+      { label: "Terms & Conditions", href: "#" },
+    ],
+  },
+};
+
+function FooterSection({ title, links, hiddenClass, wrapperClass }) {
+  const [isHidden, setIsHidden] = useState(true);
+
+  return (
+    <div className={wrapperClass}>
+      <div className="footer__column">
+        <div
+          className="footer__heading-arrow"
+          onClick={() => setIsHidden(!isHidden)}
+        >
+          <h4 className="footer__heading">{title}</h4>
+          <div className={`arrow-down-btn ${isHidden ? "" : "rotated"}`}>
+            <ArrowIcon />
+          </div>
+        </div>
+        <ul className={`footer__list ${isHidden ? hiddenClass : ""}`}>
+          {links.map((link) => (
+            <li key={link.label}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
 
 function Footer() {
-  // getting full year
-  const d = new Date();
-  let year = d.getFullYear();
-
-  //
+  const year = new Date().getFullYear();
+  const [isSocialHidden, setIsSocialHidden] = useState(true);
 
   return (
     <footer className="footer">
@@ -128,107 +201,40 @@ function Footer() {
 
       {/* Bottom Section */}
       <div className="footer__bottom">
-        {/* Brand Links */}
-        <div className="brand-links">
-          <div className="footer__column">
-            <h4 className="footer__heading">mettà muse</h4>
-            <ul className="footer__list muse-hidden">
-              <li>
-                <a href="#">About Us</a>
-              </li>
-              <li>
-                <a href="#">Stories</a>
-              </li>
-              <li>
-                <a href="#">Artisans</a>
-              </li>
-              <li>
-                <a href="#">Boutiques</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <a href="#">EU Compliances Docs</a>
-              </li>
-            </ul>
-          </div>
-          <div className="arrow-down-btn">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.4001 7.4248L8.83343 12.8581C9.4751 13.4998 10.5251 13.4998 11.1668 12.8581L16.6001 7.4248"
-                stroke="white"
-                strokeWidth="1.25"
-                strokeMiterlimit="10"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
+        <FooterSection
+          title={footerLinks.brand.title}
+          links={footerLinks.brand.links}
+          hiddenClass={footerLinks.brand?.hiddenClass}
+          wrapperClass="brand-links"
+        />
 
-        {/* Quick Links */}
-        <div className="quick-links">
-          <div className="footer__column">
-            <h4 className="footer__heading">QUICK LINKS</h4>
-            <ul className="footer__list links-hidden">
-              <li>
-                <a href="#">Orders & Shipping</a>
-              </li>
-              <li>
-                <a href="#">Join/Login as a Seller</a>
-              </li>
-              <li>
-                <a href="#">Payment & Pricing</a>
-              </li>
-              <li>
-                <a href="#">Return & Refunds</a>
-              </li>
-              <li>
-                <a href="#">FAQs</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="#">Terms & Conditions</a>
-              </li>
-            </ul>
-          </div>
-          <div className="arrow-down-btn">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.4001 7.4248L8.83343 12.8581C9.4751 13.4998 10.5251 13.4998 11.1668 12.8581L16.6001 7.4248"
-                stroke="white"
-                strokeWidth="1.25"
-                strokeMiterlimit="10"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
+        <FooterSection
+          title={footerLinks.quick.title}
+          links={footerLinks.quick.links}
+          hiddenClass={footerLinks.quick?.hiddenClass}
+          wrapperClass="quick-links"
+        />
 
         {/* Social & Payments */}
         <div className="social_with_payments">
           <div className="social-payments">
             <div className="footer__column">
-              <h4 className="footer__heading">FOLLOW US</h4>
+              <div
+                className="footer__heading-arrow"
+                onClick={() => setIsSocialHidden(!isSocialHidden)}
+              >
+                <h4 className="footer__heading">FOLLOW US</h4>
+                <div
+                  className={`arrow-down-btn ${isSocialHidden ? "" : "rotated"}`}
+                >
+                  <ArrowIcon />
+                </div>
+              </div>
 
-              <div className="footer__column social_payment-hidden">
-                <div className="footer__social">
+              <div className={`footer__column`}>
+                <div
+                  className={`footer__social ${!isSocialHidden ? "social_payment-hidden" : ""}`}
+                >
                   <a href="#" aria-label="Instagram">
                     <svg
                       width="34"
@@ -307,24 +313,6 @@ function Footer() {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="arrow-down-btn">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.4001 7.4248L8.83343 12.8581C9.4751 13.4998 10.5251 13.4998 11.1668 12.8581L16.6001 7.4248"
-                  stroke="white"
-                  strokeWidth="1.25"
-                  strokeMiterlimit="10"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
             </div>
           </div>
           <div className="payments">
