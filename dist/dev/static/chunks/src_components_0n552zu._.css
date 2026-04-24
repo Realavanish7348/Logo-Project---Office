@@ -211,7 +211,7 @@
   }
 
   .product-toolbar {
-    z-index: 1001;
+    z-index: 98;
     background-color: #fff;
     justify-content: space-around;
     align-items: center;

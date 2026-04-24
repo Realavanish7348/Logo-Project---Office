@@ -1,5 +1,5 @@
 .header {
-  z-index: 1000;
+  z-index: 99;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,6 @@
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  border-top: 1px solid #f1f1f1;
   padding: 16px 24px 16px 24px;
 }
 .home_tab {
@@ -161,8 +160,9 @@
   .navbar {
     position: fixed;
     width: 100%;
-    z-index: 1000;
+    z-index: 99;
     background-color: #ffffff;
+    border-bottom: 1px solid #f1f1f1;
   }
   .navbar__menu {
     display: flex;
@@ -177,6 +177,7 @@
     width: 45%;
     top: 55px;
     left: 6px;
+    z-index: 103;
   }
   .navbar__tabs {
     margin-top: 55px;

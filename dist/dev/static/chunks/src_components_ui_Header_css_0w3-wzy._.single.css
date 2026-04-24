@@ -1,6 +1,6 @@
 /* [project]/src/components/ui/Header.css [app-client] (css) */
 .header {
-  z-index: 1000;
+  z-index: 99;
   background-color: #fff;
   flex-direction: column;
   width: 100%;
@@ -101,7 +101,6 @@
 }
 
 .navbar__tabs {
-  border-top: 1px solid #f1f1f1;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
@@ -153,13 +152,15 @@
   }
 
   .navbar {
-    z-index: 1000;
+    z-index: 99;
     background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
     width: 100%;
     position: fixed;
   }
 
   .navbar__menu {
+    z-index: 103;
     background-color: #f8f8ff;
     border: 1px solid #d3d3d3;
     flex-direction: column;
