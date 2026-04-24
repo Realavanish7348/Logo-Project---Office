@@ -152,6 +152,7 @@
 }
 
 .footer__heading-arrow {
+  cursor: pointer;
   justify-content: space-between;
   align-items: center;
   display: flex;

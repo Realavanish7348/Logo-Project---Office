@@ -46,9 +46,16 @@
 .product-toolbar__left__filter {
   letter-spacing: 0;
   text-transform: uppercase;
+  cursor: pointer;
   font-family: Simplon Norm Bold;
   font-size: 14px;
   line-height: 40px;
+  width: 50%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.product-toolbar__left__filter:hover {
+  background-color: lightblue;
 }
 .product-toolbar__left__line {
   color: #e5e5e5;
@@ -66,6 +73,9 @@
 .product-toolbar__right {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 50%;
+  transition: all 0.3s ease;
 }
 .sort-button {
   border: none;
@@ -124,14 +134,32 @@
   .product-toolbar__left {
     display: none;
   }
+  .product-toolbar__right:hover {
+    background-color: lightgreen;
+  }
   .product-toolbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 42px;
+    /* sticky css below */
+    position: sticky;
+    top: 54px;
+    z-index: 1001;
+    background-color: #ffffff;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  /* remove sticky when near footer */
+  .product-toolbar--unstick {
+    position: relative;
+    top: auto;
+    box-shadow: none;
   }
   .product-toolbar__line {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

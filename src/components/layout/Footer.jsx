@@ -233,7 +233,7 @@ function Footer() {
 
               <div className={`footer__column`}>
                 <div
-                  className={`footer__social ${!isSocialHidden ? "social_payment-hidden" : ""}`}
+                  className={`footer__social ${isSocialHidden ? "social_payment-hidden" : ""}`}
                 >
                   <a href="#" aria-label="Instagram">
                     <svg

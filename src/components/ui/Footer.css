@@ -145,6 +145,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .footer__heading {
   font-family: "Simplon Norm Bold";

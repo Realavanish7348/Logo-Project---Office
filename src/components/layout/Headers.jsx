@@ -11,10 +11,9 @@ function Headers() {
         <div className="nav-1 ">
           {/* left */}
           <div className="nav__left">
-            <a
+            <div
               className="toggle__menu"
-              onClick={(e) => {
-                e.preventDefault();
+              onClick={() => {
                 setIsMenuOpen(!isMenuOpen);
               }}
             >
@@ -44,8 +43,8 @@ function Headers() {
                   strokeLinecap="round"
                 />
               </svg>
-            </a>
-            <a className="brand ">
+            </div>
+            <div className="brand ">
               <svg
                 // width="20"
                 // height="20"
@@ -82,7 +81,7 @@ function Headers() {
                   fill="black"
                 />
               </svg>
-            </a>
+            </div>
           </div>
           {/* center */}
           <div className="nav__center">
@@ -101,22 +100,26 @@ function Headers() {
                 />
               </svg>
             </span>
-            <div className={`navbar__menu ${isMenuOpen ? "hidden__menu" : ""}`}>
-              <a href="#" className="nav-style">
-                SHOP
-              </a>
-              <a href="#" className="nav-style">
-                SKILLS
-              </a>
-              <a href="#" className="nav-style">
-                STORIES
-              </a>
-              <a href="#" className="nav-style">
-                ABOUT
-              </a>
-              <a href="#" className="nav-style">
-                CONTACT US
-              </a>
+            <div
+              className={`hamburger-menu ${!isMenuOpen ? "hidden__menu" : ""}`}
+            >
+              <div className={`navbar__menu`}>
+                <a href="#" className="nav-style">
+                  SHOP
+                </a>
+                <a href="#" className="nav-style">
+                  SKILLS
+                </a>
+                <a href="#" className="nav-style">
+                  STORIES
+                </a>
+                <a href="#" className="nav-style">
+                  ABOUT
+                </a>
+                <a href="#" className="nav-style">
+                  CONTACT US
+                </a>
+              </div>
             </div>
           </div>
           {/* right */}

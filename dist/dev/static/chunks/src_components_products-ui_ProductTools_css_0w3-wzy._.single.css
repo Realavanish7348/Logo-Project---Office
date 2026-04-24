@@ -50,9 +50,17 @@
 .product-toolbar__left__filter {
   letter-spacing: 0;
   text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
   font-family: Simplon Norm Bold;
   font-size: 14px;
   line-height: 40px;
+  transition: all .3s;
+}
+
+.product-toolbar__left__filter:hover {
+  background-color: #add8e6;
 }
 
 .product-toolbar__left__line {
@@ -69,7 +77,10 @@
 }
 
 .product-toolbar__right {
+  justify-content: center;
   align-items: center;
+  width: 50%;
+  transition: all .3s;
   display: flex;
 }
 
@@ -135,15 +146,33 @@
     display: none;
   }
 
+  .product-toolbar__right:hover {
+    background-color: #90ee90;
+  }
+
   .product-toolbar {
+    z-index: 1001;
+    background-color: #fff;
     justify-content: space-around;
     align-items: center;
     height: 42px;
+    padding: 0;
     display: flex;
+    position: sticky;
+    top: 54px;
+    box-shadow: 0 2px 4px #0000000d;
+  }
+
+  .product-toolbar--unstick {
+    box-shadow: none;
+    position: relative;
+    top: auto;
   }
 
   .product-toolbar__line {
-    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 }
 

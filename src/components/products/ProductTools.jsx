@@ -4,8 +4,10 @@ import "@/components/products-ui/ProductTools.css";
 
 function ProductTools({ isFilter, setIsFilter, items }) {
   const [isToggle, setIsToggle] = useState(true);
+  const [isNearFooter, setIsNearFooter] = useState(false);
 
-  const dropdownRef = useRef(null); // Add ref for dropdown
+  const dropdownRef = useRef(null);
+  const toolbarRef = useRef(null);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -23,8 +25,38 @@ function ProductTools({ isFilter, setIsFilter, items }) {
     return () => window.removeEventListener("click", handleClickOutside);
   }, []);
 
+  // Detect when toolbar is near footer (mobile only)
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 1024;
+    if (!isMobile) return;
+
+    const footer = document.querySelector("footer");
+    if (!footer) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // When footer is visible, unstick the toolbar
+          setIsNearFooter(entry.isIntersecting);
+        });
+      },
+      {
+        root: null,
+        rootMargin: "100px 0px 0px 0px", // Trigger 100px before footer enters viewport
+        threshold: 0,
+      },
+    );
+
+    observer.observe(footer);
+
+    // this disconnect observer
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className="product-toolbar">
+    <section
+      className={`product-toolbar ${isNearFooter ? "product-toolbar--unstick" : ""}`}
+    >
       <div className="product-toolbar__left">
         <span className="product-count">{items.length} ITEMS</span>
 
